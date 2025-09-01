@@ -9,15 +9,22 @@ redirect_from:
 
 {% include base_path %}
 
+You can download my full CV here: [PDF](http://shaikalthaf4.github.io/files/Althaf_SDSU_CV_v1.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. Candidate in Civil and Environmental Engineering, University of Illinois at Urbana-Champaign (UIUC), 2025 (expected)
+* M.S. in Computer Science, University of Illinois at Urbana-Champaign (UIUC), 2024
+* B.Tech in Civil Engineering, [Previous Institution], [Year]
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
+* Fall 2024: Assistant Professor
+  * San Diego State University
+  * Department of Civil and Environmental Engineering
+  * Research: Smart Infrastructure, AI/ML for Civil Engineering
+
+* 2022-2024: Graduate Research Assistant
   * GitHub University
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
