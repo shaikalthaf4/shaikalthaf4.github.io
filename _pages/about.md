@@ -9,35 +9,37 @@ redirect_from:
 
 ## About Me
 
-I am an Assistant Professor in the Department of Civil and Environmental Engineering at San Diego State University. I carry out interdisciplinary research at the intersection of Structural Engineering and Computer Science, with a passion for advancing the future of smart, resilient infrastructure. 
+I am an Assistant Professor of Civil, Construction, and Environmental Engineering at San Diego State University. My group develops AI-enabled smart sensing platforms, computer vision pipelines, and physics-informed digital twins that turn infrastructure data into actionable intelligence for safer, more resilient communities. I enjoy working at the boundary of structural engineering, machine learning, and embedded systems to close the gap between advanced analytics and field deployment.
 
-I am excited about leveraging AI, Physics-informed Machine Learning, IoT/Edge Computing, and Digital Twins to drive innovation in asset management and create safer, more sustainable environments!
+### Research Focus
 
-## Education & Background
+- **Autonomous structural health monitoring** for bridges and critical infrastructure
+- **Smart sensing and edge computing** with wireless hardware, LoRa communication, and embedded AI
+- **Computer vision and generative AI** for drone- and camera-based inspections
+- **Scientific machine learning and PINNs** that fuse physics, field data, and simulation
+- **Digital twins for resilience** that support rapid decision-making after natural hazards
 
-- **Ph.D. Candidate** in Civil and Environmental Engineering, University of Illinois at Urbana-Champaign (UIUC)
-- **M.S.** in Computer Science, University of Illinois at Urbana-Champaign (2024)
+### Current Appointments
 
-## Research Interests
+- Assistant Professor, Department of Civil, Construction, and Environmental Engineering, San Diego State University (2025–present)
+- Hardware Research Intern, StructureIQ, Inc., Champaign, IL (Summer 2025)
 
-My research focuses on:
-- **Smart Infrastructure Monitoring**: Development of wireless sensor networks and computer vision systems for real-time structural health monitoring
-- **AI/ML for Civil Engineering**: Physics-informed machine learning, deep learning for anomaly detection, and digital twin technologies
-- **Bridge Engineering**: Automated damage detection, displacement monitoring, and performance assessment of bridge structures
-- **IoT and Edge Computing**: Deployment of smart sensor platforms for autonomous data collection and processing
+Previously, I led research at the Smart Structures Technology Laboratory at the University of Illinois Urbana-Champaign, focusing on autonomous infrastructure assessment, synchronized wireless sensing, and bridge monitoring with drones and edge devices.
 
-## Recent News & Updates
+### Selected Honors
 
-- **[May 2024]**: Awarded M.S. (Thesis) degree in Computer Science, UIUC
-- **[May 2023]**: Outstanding Student Contributor, Academy for Excellence in Engineering Education, UIUC
-- **[Aug 2022]**: Selected as a Mavis Future Faculty Fellow, UIUC
-- **[Aug 2022]**: Accepted into M.S (Thesis) program in Computer Science, UIUC
-- **[July 2022]**: Inauguration of Bahl Smart Bridge, UIUC - Living Laboratory for Education and Research
-- **[Dec 2021]**: Editor's Choice Award for paper on wireless sensor with state-of-the-art synchronization accuracy 
+- First Runner-up, 7th Midwest Smart Structures Colloquium (2025)
+- Graduate College Conference Presentation Award, UIUC (2024)
+- Mavis Future Faculty Fellow, UIUC (2022–2023)
+- International Liu Huixian Earthquake Engineering Scholarship (2022)
+- Institute Silver Medal, IIT Bombay (2018)
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+### Recent Highlights
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- Full-scale seismic testing campaign for LifeArk modular housing (2025–2026)
+- Seminar series on bridging smart sensing and physics-informed AI across San Diego State University (Fall 2025)
+- Feature article in STRUCTURE Magazine on AI for indeterminate structural analysis (in press)
+
+### Get in Touch
+
+Email is the fastest way to reach me: [ashajihan@sdsu.edu](mailto:ashajihan@sdsu.edu). You can also follow my work on [Google Scholar](https://scholar.google.com/citations?user=vuTpwf0AAAAJ&hl=en), [LinkedIn](https://linkedin.com/in/shaik-althaf-uiuc/), and [GitHub](https://github.com/shaikalthaf4).

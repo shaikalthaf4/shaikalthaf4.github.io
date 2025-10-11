@@ -1,13 +1,15 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Physics-informed neural network based model updating and damage identification in railroad truss bridges"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuscripts
+permalink: /publication/2025-pinn-railroad-bridges
+excerpt: "PINN framework fuses sensing, inspection, and simulation for railroad truss bridge damage diagnosis."
+date: 2025-02-01
+venue: "arXiv"
+paperurl: "https://arxiv.org/abs/2502.00194"
+authors: "Shajihan, A.; Mechitov, K.; Chowdhary, G.; Spencer Jr, B. F."
+citation: "Shajihan, A., Mechitov, K., Chowdhary, G., & Spencer Jr, B. F. (2025). Physics-informed neural network based model updating and damage identification in railroad truss bridges. arXiv:2502.00194."
 ---
+We integrate multi-modal sensing, inspection imagery, and finite-element models into a physics-informed neural network that diagnoses damage in railroad truss bridges without extensive retraining. The workflow supports rapid digital twin updates for large-scale infrastructure.
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+[Read the preprint](https://arxiv.org/abs/2502.00194)

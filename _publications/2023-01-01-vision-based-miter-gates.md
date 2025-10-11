@@ -3,15 +3,13 @@ title: "Vision-based model updating and evaluation of miter gates on inland wate
 collection: publications
 category: manuscripts
 permalink: /publication/2023-vision-based-miter-gates
-excerpt: 'This paper presents a vision-based approach for model updating and evaluation of miter gates on inland waterways.'
-date: 2023-01-01
-venue: 'Engineering Structures'
-paperurl: 'https://doi.org/10.1016/j.engstruct.2023.115674'
-citation: 'Wang, S., Rodgers, C., Fillmore, T., Welsh, B., Golecki, T., V. Shajihan, S. A., & Spencer, B. F. (2023). Vision-based model updating and evaluation of miter gates on inland waterways. Engineering Structures, 280, 115674.'
----
+excerpt: "Vision-based system identification improves digital twin fidelity for inland waterway miter gates."
+date: 2023-06-15
+venue: "Engineering Structures"
+paperurl: "https://doi.org/10.1016/j.engstruct.2023.115674"
+authors: "Wang, S.; Rodgers, C.; Fillmore, T.; Welsh, B.; Golecki, T.; Shajihan, A.; Spencer, B. F."
+citation: "Wang, S., Rodgers, C., Fillmore, T., Welsh, B., Golecki, T., Shajihan, A., & Spencer, B. F. (2023). Vision-based model updating and evaluation of miter gates on inland waterways. Engineering Structures, 280, 115674."
 
-This paper presents a vision-based approach for model updating and evaluation of miter gates on inland waterways, demonstrating the effectiveness of computer vision techniques in infrastructure monitoring and assessment.
+We demonstrate a computer-vision-driven workflow for updating finite-element models of massive inland waterway miter gates. The approach fuses displacement measurements with structural simulations to calibrate digital twins that support U.S. Army Corps of Engineers decision making.
 
-[Download paper here](https://doi.org/10.1016/j.engstruct.2023.115674)
-
-Recommended citation: Wang, S., Rodgers, C., Fillmore, T., Welsh, B., Golecki, T., V. Shajihan, S. A., & Spencer, B. F. (2023). Vision-based model updating and evaluation of miter gates on inland waterways. Engineering Structures, 280, 115674.
+[Read the article](https://doi.org/10.1016/j.engstruct.2023.115674)

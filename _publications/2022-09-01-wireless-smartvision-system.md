@@ -3,15 +3,13 @@ title: "Wireless SmartVision system for synchronized displacement monitoring of 
 collection: publications
 category: manuscripts
 permalink: /publication/2022-wireless-smartvision-system
-excerpt: 'This paper presents a wireless SmartVision system for synchronized displacement monitoring of railroad bridges using computer vision techniques.'
-date: 2022-09-01
-venue: 'Computer-Aided Civil and Infrastructure Engineering'
-paperurl: 'https://doi.org/10.1111/mice.12846'
-citation: 'V. Shajihan, S. A., Hoang, T., Mechitov, K., & Spencer Jr, B. F. (2022). Wireless SmartVision system for synchronized displacement monitoring of railroad bridges. Computer-Aided Civil and Infrastructure Engineering, 37(9), 1070-1088.'
----
+excerpt: "Wireless machine-vision nodes achieve microsecond synchronization for long-span bridge monitoring."
+date: 2022-07-01
+venue: "Computer-Aided Civil and Infrastructure Engineering"
+paperurl: "https://doi.org/10.1111/mice.12846"
+authors: "Shajihan, A.; Hoang, T.; Mechitov, K.; Spencer Jr, B. F."
+citation: "Shajihan, A., Hoang, T., Mechitov, K., & Spencer Jr, B. F. (2022). Wireless SmartVision system for synchronized displacement monitoring of railroad bridges. Computer-Aided Civil and Infrastructure Engineering, 37(9), 1070-1088."
 
-This paper presents a wireless SmartVision system for synchronized displacement monitoring of railroad bridges. The system utilizes computer vision techniques to provide accurate and real-time monitoring of bridge displacements, offering a significant advancement in structural health monitoring technology.
+We present a deployable wireless vision system that synchronizes multiple smart cameras to track bridge displacement in real time. The platform delivers long-duration monitoring with high accuracy, enabling autonomous assessment of railroad bridges under live traffic.
 
-[Download paper here](https://doi.org/10.1111/mice.12846)
-
-Recommended citation: V. Shajihan, S. A., Hoang, T., Mechitov, K., & Spencer Jr, B. F. (2022). Wireless SmartVision system for synchronized displacement monitoring of railroad bridges. Computer-Aided Civil and Infrastructure Engineering, 37(9), 1070-1088.
+[Read the article](https://doi.org/10.1111/mice.12846)
