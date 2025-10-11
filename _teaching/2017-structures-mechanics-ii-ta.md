@@ -8,4 +8,4 @@ date: 2017-01-15
 location: "Mumbai, India"
 ---
 
-Teaching Assistant for a core structural analysis course with more than 100 students. Led recitation sessions, held office hours, and graded exams focused on indeterminate analysis and energy methods.
+TA leading recitations, office hours, and grading for the core structural analysis course.

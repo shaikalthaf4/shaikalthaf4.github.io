@@ -8,4 +8,4 @@ date: 2020-01-15
 location: "Urbana, IL"
 ---
 
-Head Teaching Assistant supporting Prof. Billie F. Spencer Jr. in a graduate structural damping course. Coordinated labs, graded design projects, and authored MATLAB assignments on optimal damper placement for seismic resilience.
+Head TA coordinating labs, grading, and project support for the graduate structural damping course.

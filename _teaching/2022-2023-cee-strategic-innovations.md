@@ -8,4 +8,4 @@ date: 2022-08-15
 location: "Urbana, IL"
 ---
 
-Lead Teaching Assistant collaborating with 12 faculty to integrate Python-based computation and project-based labs across the CEE curriculum. Developed Jupyter modules, coordinated assessment improvements, and presented outcomes at the Academy for Excellence in Engineering Education.
+Led curriculum updates that added Python modules and coordinated assessment improvements across the CEE program.

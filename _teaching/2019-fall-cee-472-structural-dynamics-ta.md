@@ -8,4 +8,4 @@ date: 2019-08-20
 location: "Urbana, IL"
 ---
 
-Teaching Assistant providing weekly discussion sessions and office hours for more than 50 students. Supported MATLAB-based assignments, clarified vibration concepts, and guided final project development.
+TA leading weekly discussions, office hours, and project support for the structural dynamics course.

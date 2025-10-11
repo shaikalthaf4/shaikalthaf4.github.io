@@ -8,4 +8,4 @@ date: 2025-08-26
 location: "San Diego, CA"
 ---
 
-Assistant Professor of Record for CIVE 421. Led design studios and project-based learning for 32 students covering flexural, shear, and serviceability design. Integrated case studies from smart sensing deployments to connect structural analysis with resilience-focused design decisions.
+Undergraduate course, San Diego State University, Civil, Construction, and Environmental Engineering, Fall 2025.

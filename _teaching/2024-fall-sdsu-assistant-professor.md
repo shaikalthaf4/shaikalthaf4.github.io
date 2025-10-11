@@ -8,4 +8,4 @@ date: 2025-01-01
 location: "San Diego, CA"
 ---
 
-Overview of ongoing teaching responsibilities as a faculty member in CCEE at SDSU, including course development for reinforced concrete design, integration of smart sensing case studies, and mentoring of undergraduate research teams.
+Faculty role supporting core CCEE courses and mentoring undergraduate project teams.
