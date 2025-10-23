@@ -1,11 +1,62 @@
 ---
 permalink: /
-title: "Physics-informed Resilient Infrastructure and Structural Modeling Lab"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+<div class="prism-header">
+  <img src="/images/prism_logo_v2.png" alt="PRISM Lab Logo" class="prism-logo">
+  <h1 class="prism-title">Physics-informed Resilient Infrastructure and Structural Modeling Lab</h1>
+</div>
+
+<style>
+.prism-header {
+  text-align: center;
+  padding: 3em 0 2em 0;
+  margin-bottom: 2em;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.prism-logo {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 1.5em;
+  display: block;
+}
+
+.prism-title {
+  font-size: 2em;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.page__content {
+  margin-left: 2em;
+  padding-left: 1.5em;
+  max-width: 900px;
+}
+
+@media (max-width: 768px) {
+  .prism-logo {
+    max-width: 280px;
+  }
+  
+  .prism-title {
+    font-size: 1.5em;
+  }
+  
+  .page__content {
+    margin-left: 1em;
+    padding-left: 1em;
+  }
+}
+</style>
 
 Welcome to the PRISM Lab at San Diego State University. We develop AI-enabled smart sensing platforms, computer vision pipelines, and physics-informed digital twins that turn infrastructure data into actionable intelligence for safer, more resilient communities.
 

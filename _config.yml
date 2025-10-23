@@ -22,7 +22,7 @@ repository               : "shaikalthaf4/shaikalthaf4.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "prism_logo_v2.png"
+  avatar           : # Leave blank to remove sidebar image
   name             : "PRISM Lab"
   pronouns         : # I don't want this
   bio              : "Physics-informed Resilient Infrastructure and Structural Modeling Lab"

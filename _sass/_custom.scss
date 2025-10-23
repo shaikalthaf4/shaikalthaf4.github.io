@@ -1,0 +1,165 @@
+/* PRISM Lab Custom Styles */
+
+/* Navigation bar improvements - ensure all tabs fit in one row */
+.greedy-nav {
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.greedy-nav a {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95em;
+}
+
+.greedy-nav .visible-links {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.masthead__menu-item {
+  padding: 0 0.25em;
+}
+
+/* Make site title more compact */
+.site-title {
+  font-size: 1.2em;
+  padding-right: 1em;
+}
+
+/* Increase spacing between sidebar and main content */
+.sidebar {
+  margin-right: 3em;
+}
+
+@media (min-width: 64em) {
+  .sidebar {
+    padding-right: 2em;
+    width: 280px;
+  }
+  
+  .sidebar.sticky {
+    width: 280px;
+  }
+}
+
+/* Add padding to main content area */
+.page__content {
+  margin-left: 3em;
+  padding-left: 2em;
+}
+
+/* Improve content spacing */
+.page {
+  @media (min-width: 64em) {
+    float: right;
+    width: calc(100% - 320px);
+    padding-right: 2em;
+    
+    .page__content {
+      margin-left: 2em;
+      padding-left: 2em;
+    }
+  }
+}
+
+/* Better text alignment and spacing */
+.page__inner-wrap {
+  @media (min-width: 64em) {
+    padding-left: 1em;
+    margin-left: 1em;
+  }
+}
+
+/* Navigation bar improvements */
+.greedy-nav {
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.greedy-nav a {
+  padding: 0.75rem 1rem;
+}
+
+/* Home page logo header */
+.page__hero--overlay {
+  padding: 6em 0 3em;
+  margin-bottom: 2em;
+}
+
+.page__hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+/* Remove avatar image if blank */
+.author__avatar {
+  display: none !important;
+}
+
+.author__avatar img {
+  display: none !important;
+}
+
+/* Adjust author bio spacing when no avatar */
+.author__content {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.sidebar .author__name {
+  margin-top: 0;
+  padding-top: 0.5em;
+}
+
+/* Better content width */
+@media (min-width: 80em) {
+  .page {
+    width: calc(100% - 350px);
+    padding-right: 2em;
+  }
+  
+  .page__content {
+    margin-left: 2em;
+  }
+}
+
+/* Improve publications layout spacing */
+.publication-item {
+  margin-bottom: 2.5em;
+  padding-bottom: 2.5em;
+  padding-left: 1em;
+}
+
+/* Better spacing for lists */
+.page__content ul,
+.page__content ol {
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* Section headings */
+.page__content h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #0066cc;
+}
+
+.page__content h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+/* Improve overall readability */
+.page__content p {
+  margin-bottom: 1.25em;
+  line-height: 1.6;
+}
+
+/* Team page improvements */
+.page__content hr {
+  margin: 2em 0;
+}
