@@ -1,40 +1,73 @@
 /* PRISM Lab Custom Styles */
 
-/* Navigation bar improvements - ensure all tabs fit in one row */
+/* Logo in header - left side */
+.masthead__inner-wrap::before {
+  content: "";
+  background-image: url('/images/prism_logo_v2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1em;
+  position: relative;
+  top: 5px;
+}
+
+/* Navigation bar improvements - always show all tabs in one row */
 .greedy-nav {
   background: #fff;
   border-bottom: 1px solid #e0e0e0;
 }
 
-.greedy-nav a {
-  padding: 0.5rem 0.75rem;
-  font-size: 0.95em;
+.greedy-nav .visible-links {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: flex-start;
+  padding-left: 0;
 }
 
-.greedy-nav .visible-links {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
+.greedy-nav .visible-links li {
+  display: inline-block !important;
+  margin: 0;
+}
+
+.greedy-nav a {
+  padding: 0.5rem 0.7rem;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+/* Hide the hamburger menu button */
+.greedy-nav .hidden-links {
+  display: none !important;
+}
+
+.greedy-nav button {
+  display: none !important;
 }
 
 .masthead__menu-item {
-  padding: 0 0.25em;
+  padding: 0;
 }
 
 /* Make site title more compact */
 .site-title {
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding-right: 1em;
+  margin-left: 70px; /* Make room for logo */
 }
 
-/* Increase spacing between sidebar and main content */
+/* Reduce spacing between sidebar and main content */
 .sidebar {
-  margin-right: 3em;
+  margin-right: 1.5em;
 }
 
 @media (min-width: 64em) {
   .sidebar {
-    padding-right: 2em;
+    padding-right: 1em;
     width: 280px;
   }
   
@@ -43,22 +76,22 @@
   }
 }
 
-/* Add padding to main content area */
+/* Reduce padding in main content area */
 .page__content {
-  margin-left: 3em;
-  padding-left: 2em;
+  margin-left: 1em;
+  padding-left: 1em;
 }
 
-/* Improve content spacing */
+/* Adjust content width */
 .page {
   @media (min-width: 64em) {
     float: right;
-    width: calc(100% - 320px);
-    padding-right: 2em;
+    width: calc(100% - 300px);
+    padding-right: 1em;
     
     .page__content {
-      margin-left: 2em;
-      padding-left: 2em;
+      margin-left: 1em;
+      padding-left: 1em;
     }
   }
 }
@@ -96,22 +129,42 @@
 
 /* Remove avatar image if blank */
 .author__avatar {
-  display: none !important;
+  display: table-cell;
+  vertical-align: top;
+  width: 36px;
+  height: 36px;
 }
 
-.author__avatar img {
-  display: none !important;
+@media (min-width: 64em) {
+  .author__avatar {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  .author__avatar img {
+    max-width: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+  }
 }
 
-/* Adjust author bio spacing when no avatar */
+/* Adjust author bio spacing */
 .author__content {
-  margin-top: 0;
-  padding-top: 0;
+  margin-top: 1em;
 }
 
-.sidebar .author__name {
-  margin-top: 0;
-  padding-top: 0.5em;
+/* Style for author bio with HTML */
+.author__bio {
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+.author__bio br {
+  display: block;
+  content: "";
+  margin-top: 0.5em;
 }
 
 /* Better content width */

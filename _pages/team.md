@@ -5,25 +5,77 @@ permalink: /team/
 author_profile: true
 ---
 
-## Director
+## Director and Principal Investigator
 
-### Althaf Shajihan, Ph.D.
+<div class="team-profile">
+  <div class="team-photo">
+    <img src="/images/Althaf_photo.png" alt="Althaf Shajihan" style="max-width: 300px; border-radius: 8px;">
+  </div>
+  <div class="team-info">
+    <h3>Althaf Shajihan, Ph.D.</h3>
+    <p><strong>ASSISTANT PROFESSOR</strong></p>
+    
+    <p>Civil, Construction, and Environmental Engineering<br>
+    Electrical and Computer Engineering (Joint appointment)</p>
+    
+    <p><em>Ph.D., Civil Engineering, University of Illinois at Urbana-Champaign, 2025<br>
+    M.S., Computer Science, University of Illinois at Urbana-Champaign, 2024<br>
+    M.S., Civil Engineering, University of Illinois at Urbana-Champaign, 2020<br>
+    B.S., Civil Engineering, BMS College of Engineering, Bangalore, India, 2014</em></p>
+    
+    <p>Dr. Shajihan is an Assistant Professor of Civil, Construction, and Environmental Engineering and Electrical and Computer Engineering at San Diego State University where he directs the PRISM Lab (Physics-informed Resilient Infrastructure and Structural Modeling Lab). Dr. Shajihan has 10+ years of experience in the research and development of artificial intelligence, computer vision, and deep learning methods for applications in structural engineering. He currently serves as the director of the PRISM Lab at SDSU. Dr. Shajihan also serves as the PI on several projects including those funded by NSF, DoD, DoE, and industry partners. Dr. Shajihan has won several awards including best paper awards at major conferences and has published extensively in top-tier journals and conferences.</p>
+    
+    <p>
+      <a href="https://scholar.google.com/citations?user=vuTpwf0AAAAJ&hl=en" target="_blank" class="btn btn--small btn--primary">Google Scholar</a>
+      <a href="https://linkedin.com/in/shaik-althaf-uiuc/" target="_blank" class="btn btn--small btn--primary">LinkedIn</a>
+    </p>
+  </div>
+</div>
 
-**Assistant Professor**  
-Department of Civil, Construction, and Environmental Engineering  
-**Affiliate Faculty**  
-Computational Science Research Center (CSRC)  
-San Diego State University
+<style>
+.team-profile {
+  display: flex;
+  gap: 2em;
+  margin: 2em 0;
+  align-items: flex-start;
+}
 
-Dr. Shajihan leads the PRISM Lab, focusing on AI-enabled smart sensing, computer vision, and physics-informed digital twins for resilient civil infrastructure.
+.team-photo {
+  flex-shrink: 0;
+}
 
-**Selected Honors:**
-- Mavis Future Faculty Fellow, UIUC (2022–2023)
-- International Liu Huixian Earthquake Engineering Scholarship (2022)
-- Institute Silver Medal, IIT Bombay (2018)
+.team-photo img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
 
-**Contact:** [ashajihan@sdsu.edu](mailto:ashajihan@sdsu.edu)  
-**Links:** [Google Scholar](https://scholar.google.com/citations?user=vuTpwf0AAAAJ&hl=en) | [LinkedIn](https://linkedin.com/in/shaik-althaf-uiuc/) | [GitHub](https://github.com/shaikalthaf4)
+.team-info {
+  flex-grow: 1;
+}
+
+.team-info h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+.team-info p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .team-profile {
+    flex-direction: column;
+  }
+  
+  .team-photo {
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
 
 ---
 
