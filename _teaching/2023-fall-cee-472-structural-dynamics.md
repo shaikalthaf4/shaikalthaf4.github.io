@@ -8,4 +8,4 @@ date: 2023-09-01
 location: "Urbana, IL"
 ---
 
-Served as interim lecturer for multiple class sessions, covering single- and multi-degree-of-freedom vibration analysis, response spectra, and damping design for structures. Delivered lectures, crafted problem sets, and mentored student design teams.
+Interim lecturer covering vibration analysis, response spectra, and damping design.

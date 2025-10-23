@@ -1,0 +1,148 @@
+{% include base_path %}
+
+{% if post.image %}
+  {% capture teaser %}{{ post.image }}{% endcapture %}
+{% elsif post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="publication-item">
+  <article class="publication-article" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    {% if teaser %}
+    <div class="publication-image">
+      <img src=
+        {% if teaser contains "://" %}
+          "{{ teaser }}"
+        {% else %}
+          "{{ teaser | prepend: "/images/publications/" | prepend: base_path }}"
+        {% endif %}
+        alt="{{ title }}">
+    </div>
+    {% endif %}
+    
+    <div class="publication-content">
+      <h3 class="publication-title" itemprop="headline">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
+        {% else %}
+          {{ title }}
+        {% endif %}
+      </h3>
+      
+      {% if post.authors %}
+        <p class="publication-authors" itemprop="author">{{ post.authors }}</p>
+      {% endif %}
+      
+      {% if post.venue %}
+        <p class="publication-venue">
+          <em>{{ post.venue }}</em>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+        </p>
+      {% endif %}
+      
+      {% if post.excerpt %}
+        <p class="publication-excerpt">{{ post.excerpt }}</p>
+      {% endif %}
+      
+      {% if post.paperurl %}
+        <p class="publication-link">
+          <a href="{{ post.paperurl }}" target="_blank" class="btn btn--primary btn--small">View Paper</a>
+        </p>
+      {% endif %}
+    </div>
+    
+  </article>
+</div>
+
+<style>
+.publication-item {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.publication-article {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+
+.publication-image {
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.publication-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.publication-content {
+  flex-grow: 1;
+}
+
+.publication-title {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  line-height: 1.3;
+}
+
+.publication-title a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.publication-title a:hover {
+  text-decoration: underline;
+}
+
+.publication-authors {
+  margin: 0.3em 0;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.publication-venue {
+  margin: 0.3em 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.publication-excerpt {
+  margin: 0.8em 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: #333;
+}
+
+.publication-link {
+  margin-top: 0.8em;
+}
+
+.btn--small {
+  padding: 0.4em 0.8em;
+  font-size: 0.85em;
+}
+
+@media (max-width: 768px) {
+  .publication-article {
+    flex-direction: column;
+  }
+  
+  .publication-image {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+</style>

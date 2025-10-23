@@ -11,11 +11,15 @@ redirect_from:
 
 You can download my full CV here: [PDF](https://shaikalthaf4.github.io/files/Althaf_SDSU_CV_v1.pdf)
 
-## Appointments
+## Current Appointments
 
-- **Assistant Professor**, Civil, Construction, and Environmental Engineering, San Diego State University (2025–present)
-- **Hardware Research Intern**, StructureIQ, Inc., Champaign, IL (Summer 2025)
-- **Graduate Research Assistant**, Smart Structures Technology Laboratory, University of Illinois Urbana-Champaign (2018–2025)
+- **Assistant Professor**, Department of Civil, Construction, and Environmental Engineering, San Diego State University
+- **Affiliate Faculty**, Computational Science Research Center (CSRC), San Diego State University
+
+## Previous Positions
+
+- Hardware Research Intern, StructureIQ, Inc., Champaign, IL (Summer 2025)
+- Graduate Research Assistant, Smart Structures Technology Laboratory, University of Illinois Urbana-Champaign (2018–2025)
 
 ## Education
 
