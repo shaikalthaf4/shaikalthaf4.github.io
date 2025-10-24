@@ -5,76 +5,120 @@ permalink: /team/
 author_profile: true
 ---
 
-## Director and Principal Investigator
-
-<div class="team-profile">
-  <div class="team-photo">
-    <img src="/images/Althaf_photo.png" alt="Althaf Shajihan" style="max-width: 300px; border-radius: 8px;">
-  </div>
-  <div class="team-info">
-    <h3>Althaf Shajihan, Ph.D.</h3>
-    <p><strong>ASSISTANT PROFESSOR</strong></p>
-    
-    <p>Civil, Construction, and Environmental Engineering</p>
-    
-    <p><em>Ph.D., Civil Engineering, University of Illinois at Urbana-Champaign, 2025<br>
-    M.S., Computer Science, University of Illinois at Urbana-Champaign, 2024<br>
-    M.S., Structural Engineering, Indian Institute of Technology Bombay, 2018<br>
-    B.Tech., Civil Engineering, National Institute of Technology Calicut, 2016</em></p>
-    
-    <p>Dr. Shajihan is an Assistant Professor of Civil, Construction, and Environmental Engineering at San Diego State University where he directs the PRISM Lab (Physics-informed Resilient Infrastructure and Structural Modeling Lab). Dr. Shajihan has 10+ years of experience in the research and development of artificial intelligence, computer vision, and deep learning methods for applications in structural engineering. He currently serves as the director of the PRISM Lab at SDSU. Dr. Shajihan also serves as the PI on several projects including those funded by federal agencies and industry partners. Dr. Shajihan has won several awards including best paper awards at major conferences and has published extensively in top-tier journals.</p>
-    
-    <p>
-      <a href="https://scholar.google.com/citations?user=vuTpwf0AAAAJ&hl=en" target="_blank" class="btn btn--small btn--primary">Google Scholar</a>
-      <a href="https://linkedin.com/in/shaik-althaf-uiuc/" target="_blank" class="btn btn--small btn--primary">LinkedIn</a>
-    </p>
-  </div>
-</div>
-
 <style>
+.team-section {
+  clear: both;
+  width: 100%;
+  margin-top: 2em;
+}
+
 .team-profile {
-  display: flex;
-  gap: 2em;
+  display: block;
+  width: 100%;
   margin: 2em 0;
-  align-items: flex-start;
+  clear: both;
 }
 
 .team-photo {
-  flex-shrink: 0;
+  float: left;
+  margin-right: 2em;
+  margin-bottom: 1em;
+  max-width: 300px;
 }
 
 .team-photo img {
   width: 100%;
   max-width: 300px;
   height: auto;
+  border-radius: 8px;
+  display: block;
 }
 
 .team-info {
-  flex-grow: 1;
+  overflow: hidden;
+}
+
+.team-info h2 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  font-size: 1.8em;
+  font-weight: 700;
 }
 
 .team-info h3 {
   margin-top: 0;
   margin-bottom: 0.5em;
-  font-size: 1.5em;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #555;
 }
 
 .team-info p {
   margin-bottom: 1em;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.team-info .education {
+  font-style: italic;
+  font-size: 0.95em;
   line-height: 1.6;
 }
 
+.team-links {
+  margin-top: 1.5em;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media (max-width: 768px) {
-  .team-profile {
-    flex-direction: column;
+  .team-photo {
+    float: none;
+    margin: 0 auto 1.5em;
+    text-align: center;
   }
   
-  .team-photo {
-    width: 100%;
-    text-align: center;
+  .team-info p {
+    text-align: left;
   }
 }
 </style>
+
+<div class="team-section">
+
+## Director and Principal Investigator
+
+<div class="team-profile clearfix">
+  <div class="team-photo">
+    <img src="/images/Althaf_photo.png" alt="Althaf Shajihan">
+  </div>
+  
+  <div class="team-info">
+    <h2>Althaf Shajihan, Ph.D.</h2>
+    <h3>Assistant Professor</h3>
+    
+    <p>Civil, Construction, and Environmental Engineering</p>
+    
+    <p class="education">Ph.D., Civil Engineering, University of Illinois at Urbana-Champaign, 2025<br>
+    M.S., Computer Science, University of Illinois at Urbana-Champaign, 2024<br>
+    M.S., Structural Engineering, Indian Institute of Technology Bombay, 2018<br>
+    B.Tech., Civil Engineering, National Institute of Technology Calicut, 2016</p>
+    
+    <p>Dr. Shajihan is an Assistant Professor of Civil, Construction, and Environmental Engineering at San Diego State University where he directs the PRISM Lab (Physics-informed Resilient Infrastructure and Structural Modeling Lab). Dr. Shajihan has 10+ years of experience in the research and development of artificial intelligence, computer vision, and deep learning methods for applications in structural engineering. He currently serves as the director of the PRISM Lab at SDSU. Dr. Shajihan also serves as the PI on several projects including those funded by federal agencies and industry partners. Dr. Shajihan has won several awards including best paper awards at major conferences and has published extensively in top-tier journals.</p>
+    
+    <div class="team-links">
+      <a href="https://scholar.google.com/citations?user=vuTpwf0AAAAJ&hl=en" target="_blank" class="btn btn--small btn--primary">Google Scholar</a>
+      <a href="https://linkedin.com/in/shaik-althaf-uiuc/" target="_blank" class="btn btn--small btn--primary">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+</div>
 
 ---
 
