@@ -2,8 +2,8 @@
 # Physics-informed Resilient Infrastructure and Structural Modeling Lab
 
 main:
-  - title: "PRISM Lab"
-    url: /
+  # - title: "PRISM Lab"
+  #   url: /
 
   - title: "Research"
     url: /research/

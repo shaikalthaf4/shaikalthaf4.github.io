@@ -15,15 +15,14 @@ author_profile: true
     <h3>Althaf Shajihan, Ph.D.</h3>
     <p><strong>ASSISTANT PROFESSOR</strong></p>
     
-    <p>Civil, Construction, and Environmental Engineering<br>
-    Electrical and Computer Engineering (Joint appointment)</p>
+    <p>Civil, Construction, and Environmental Engineering</p>
     
     <p><em>Ph.D., Civil Engineering, University of Illinois at Urbana-Champaign, 2025<br>
     M.S., Computer Science, University of Illinois at Urbana-Champaign, 2024<br>
-    M.S., Civil Engineering, University of Illinois at Urbana-Champaign, 2020<br>
-    B.S., Civil Engineering, BMS College of Engineering, Bangalore, India, 2014</em></p>
+    M.S., Structural Engineering, Indian Institute of Technology Bombay, 2018<br>
+    B.Tech., Civil Engineering, National Institute of Technology Calicut, 2016</em></p>
     
-    <p>Dr. Shajihan is an Assistant Professor of Civil, Construction, and Environmental Engineering and Electrical and Computer Engineering at San Diego State University where he directs the PRISM Lab (Physics-informed Resilient Infrastructure and Structural Modeling Lab). Dr. Shajihan has 10+ years of experience in the research and development of artificial intelligence, computer vision, and deep learning methods for applications in structural engineering. He currently serves as the director of the PRISM Lab at SDSU. Dr. Shajihan also serves as the PI on several projects including those funded by NSF, DoD, DoE, and industry partners. Dr. Shajihan has won several awards including best paper awards at major conferences and has published extensively in top-tier journals and conferences.</p>
+    <p>Dr. Shajihan is an Assistant Professor of Civil, Construction, and Environmental Engineering at San Diego State University where he directs the PRISM Lab (Physics-informed Resilient Infrastructure and Structural Modeling Lab). Dr. Shajihan has 10+ years of experience in the research and development of artificial intelligence, computer vision, and deep learning methods for applications in structural engineering. He currently serves as the director of the PRISM Lab at SDSU. Dr. Shajihan also serves as the PI on several projects including those funded by federal agencies and industry partners. Dr. Shajihan has won several awards including best paper awards at major conferences and has published extensively in top-tier journals.</p>
     
     <p>
       <a href="https://scholar.google.com/citations?user=vuTpwf0AAAAJ&hl=en" target="_blank" class="btn btn--small btn--primary">Google Scholar</a>
