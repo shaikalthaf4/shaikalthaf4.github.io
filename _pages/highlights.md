@@ -9,7 +9,10 @@ author_profile: true
 
 The University of Illinois Smart Bridge serves as a living laboratory for developing and validating autonomous structural health monitoring technologies. Our work includes deployment of synchronized wireless sensors, edge AI processing, and real-time damage detection algorithms.
 
-*Video/GIF demonstration coming soon*
+<video width="100%" style="max-width: 800px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 1em 0;" autoplay loop muted playsinline>
+  <source src="/images/smartbridge.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 **Key Technologies:**
 - Synchronized high-sensitivity wireless accelerometers
