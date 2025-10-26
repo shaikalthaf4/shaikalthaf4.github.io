@@ -19,13 +19,29 @@ The University of Illinois Smart Bridge serves as a living laboratory for develo
 
 ---
 
-## Featured Article: Revolutionizing Structural Health Monitoring
+## Featured in STRUCTURE Magazine
+
+<img src="/images/publications/structure.jpg" alt="STRUCTURE Magazine Feature" style="max-width: 400px; float: right; margin-left: 2em; margin-bottom: 1em; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+
+**AI versus Hand Calculations for Statically Indeterminate Structural Engineering Examples**
+
+Our feature article in STRUCTURE Magazine (in press, December 2025) discusses practical pathways for incorporating AI-assisted analysis alongside conventional hand calculations when designing statically indeterminate structural systems. 
+
+*Authors: Dowell, R. K., & Shajihan, A.*
+
+<div style="clear: both;"></div>
+
+---
+
+## Featured Blog: Revolutionizing Structural Health Monitoring
 
 Read our Medium article on synchronized high-sensitivity wireless sensing technology and its applications to bridge monitoring:
 
+<img src="/images/publications/symphony.png" alt="Revolutionizing Structural Health Monitoring" style="max-width: 400px; float: right; margin-left: 2em; margin-bottom: 1em; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+
 **[Revolutionizing Structural Health Monitoring with Synchronized High-Sensitivity Wireless Sensors](https://medium.com/@shaikalthaf4/revolutionizing-structural-health-monitoring-with-a-synchronized-high-sensitivity-wireless-189553908117)**
 
-This article discusses our innovative approach to wireless sensing that combines:
+This Blog discusses our innovative approach to wireless sensing that combines:
 - High-sensitivity MEMS accelerometers
 - Precise time synchronization across distributed sensor networks
 - Low-power edge processing
