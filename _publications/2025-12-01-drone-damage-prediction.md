@@ -8,7 +8,7 @@ date: 2025-12-01
 venue: "Under Review"
 paperurl: ""
 authors: "Shajihan, A., Lawal, O., Golecki, T., Mechitov, K., Spencer Jr, B. F."
-image: "drone-bridge-inspection.png"
+image: "drone-bridge-inspection.jpg"
 ---
 
 Deep learning workflow leveraging drone-based inspection videos, sparse point clouds, and synchronized sensor data to estimate location and severity of structural damage in steel truss bridges.
