@@ -9,6 +9,7 @@ venue: "STRUCTURE Magazine"
 status: "In press"
 authors: "Dowell, R. K.; Shajihan, A."
 citation: "Dowell, R. K., & Shajihan, A. (2025). AI Versus Hand Calculations for Statically Indeterminate Structural Engineering Examples. STRUCTURE Magazine. (In press)."
+image: "structure.jpg"
 ---
 
 Feature article discussing practical pathways for incorporating AI-assisted analysis alongside conventional hand calculations when designing statically indeterminate structural systems. The piece highlights lessons learned from laboratory testing, digital twin development, and classroom instruction.
