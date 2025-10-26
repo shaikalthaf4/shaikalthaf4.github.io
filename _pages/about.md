@@ -16,8 +16,8 @@ redirect_from:
 .prism-header {
   text-align: center;
   padding: 3em 0 2em 0;
-  margin-bottom: 2em;
-  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .prism-logo {
