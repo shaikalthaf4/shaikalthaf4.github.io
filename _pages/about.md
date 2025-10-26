@@ -15,13 +15,13 @@ redirect_from:
 <style>
 .prism-header {
   text-align: center;
-  padding: 3em 0 2em 0;
+  padding: 1em 0 2em 0;
   margin-bottom: 1em;
   border-bottom: 1px solid #e0e0e0;
 }
 
 .prism-logo {
-  max-width: 400px;
+  max-width: 500px;
   width: 100%;
   height: auto;
   margin: 0 auto 1.5em;
@@ -52,8 +52,8 @@ redirect_from:
   }
   
   .page__content {
-    margin-left: 1em;
-    padding-left: 1em;
+    margin-left: 0.5em;
+    padding-left: 0.5em;
   }
 }
 </style>
