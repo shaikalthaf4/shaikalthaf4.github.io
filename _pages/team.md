@@ -89,9 +89,9 @@ author_profile: true
 }
 </style>
 
-<div class="team-section">
-
 ## Director and Principal Investigator
+
+<div class="team-section">
 
 <div class="team-profile clearfix">
   <div class="team-photo">
