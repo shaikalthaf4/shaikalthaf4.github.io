@@ -58,7 +58,7 @@ redirect_from:
 }
 </style>
 
-Welcome to the PRISM Lab at San Diego State University. We develop AI-enabled smart sensing platforms, computer vision pipelines, and physics-informed digital twins that turn infrastructure data into actionable intelligence for safer, more resilient communities.
+Welcome to the PRISM Lab at San Diego State University. We develop AI-enabled smart sensing platforms, Generative AI & computer vision pipelines, and physics-informed digital twins that turn infrastructure data into actionable intelligence for safer, more resilient communities.
 
 ## Research Focus
 
@@ -66,7 +66,7 @@ Our work spans the intersection of structural engineering, machine learning, and
 
 - **Autonomous structural health monitoring** for bridges and critical infrastructure
 - **Smart sensing and edge computing** with wireless hardware, LoRa communication, and embedded AI
-- **Computer vision and generative AI** for drone- and camera-based inspections
+- **Computer vision and Generative AI** for drone- and camera-based inspections
 - **Scientific machine learning and PINNs** that fuse physics, field data, and simulation
 - **Digital twins for resilience** supporting rapid decision-making after natural hazards
 
