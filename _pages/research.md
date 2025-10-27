@@ -7,7 +7,7 @@ author_profile: true
 
 ## Research Areas
 
-<img src="/images/research-overview.png" alt="Research Overview" style="width: 100%; max-width: 900px; margin: 1.5em auto; display: block; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<img src="/images/research-overview.png" alt="Research Overview" style="width: 100%; max-width: 400px; margin: 1.5em auto; display: block; border-radius: 2px; box-shadow: 0 4px 6px rgba(247, 245, 245, 0.1);">
 
 - **Autonomous Structural Health Monitoring** – Wireless smart sensors, edge computing, and machine learning for real-time condition assessment of bridges and critical infrastructure.
 
