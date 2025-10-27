@@ -15,17 +15,18 @@
 .masthead__logo {
   flex-shrink: 0;
   padding-left: 1em;
+  padding-right: 1.5em;
 }
 
 .masthead__logo img {
-  height: 45px;
+  height: 58px;
   width: auto;
   display: block;
 }
 
 @media (max-width: 768px) {
   .masthead__logo img {
-    height: 35px;
+    height: 45px;
   }
 }
 
