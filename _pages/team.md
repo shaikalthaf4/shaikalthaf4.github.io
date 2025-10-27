@@ -104,13 +104,13 @@ author_profile: true
     
     <p>Civil, Construction, and Environmental Engineering</p>
     
-    <p class="education">Ph.D., Civil Engineering, University of Illinois at Urbana-Champaign, 2025<br>
-    M.S., Computer Science, University of Illinois at Urbana-Champaign, 2024<br>
-    M.S., Structural Engineering, Indian Institute of Technology Bombay, 2018<br>
-    B.Tech., Civil Engineering, National Institute of Technology Calicut, 2016</p>
-    
-    <p>Dr. Shajihan is an Assistant Professor of Civil, Construction, and Environmental Engineering at San Diego State University where he directs the PRISM Lab (Physics-informed Resilient Infrastructure and Structural Modeling Lab). Dr. Shajihan has 10+ years of experience in the research and development of artificial intelligence, computer vision, and deep learning methods for applications in structural engineering. He currently serves as the director of the PRISM Lab at SDSU. Dr. Shajihan also serves as the PI on several projects including those funded by federal agencies and industry partners. Dr. Shajihan has won several awards including best paper awards at major conferences and has published extensively in top-tier journals.</p>
-    
+    <p class="education">Ph.D., Civil Engineering, University of Illinois at Urbana-Champaign (UIUC), 2025<br>
+    M.S., Computer Science, University of Illinois at Urbana-Champaign (UIUC), 2024<br>
+    M.S., Structural Engineering, Indian Institute of Technology Bombay (IITB), 2018<br>
+    B.S., Civil Engineering, National Institute of Technology Calicut (NITC), 2016</p>
+
+    <p>Dr. Shajihan is an Assistant Professor of Civil, Construction, and Environmental Engineering at San Diego State University (SDSU) where he directs the PRISM Lab (Physics-informed Resilient Infrastructure and Structural Modeling Lab). Dr. Shajihan has 10+ years of research experience in Structural Engineering and in the development of artificial intelligence, computer vision, and deep learning methods for applications in structural condition assessment. Dr. Shajihan also holds an Affiliate Faculty appointment in the Computational Science Research Center at SDSU. He has collaborated on several projects including those funded by federal agencies and industry partners. Dr. Shajihan has won several awards including the prestigious Kinra Fellowship at UIUC, and has published extensively in top-tier journals.</p>
+
     <div class="team-links">
       <a href="https://scholar.google.com/citations?user=vuTpwf0AAAAJ&hl=en" target="_blank" class="btn btn--small btn--primary">Google Scholar</a>
       <a href="https://linkedin.com/in/shaik-althaf-uiuc/" target="_blank" class="btn btn--small btn--primary">LinkedIn</a>
