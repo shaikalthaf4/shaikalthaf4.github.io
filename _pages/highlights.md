@@ -19,7 +19,7 @@ The University of Illinois Smart Bridge [serves as a living laboratory](https://
 
 ## Featured in STRUCTURE Magazine
 
-<img src="/images/publications/structure.jpg" alt="STRUCTURE Magazine Feature" style="max-width: 400px; float: right; margin-left: 2em; margin-bottom: 1em; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<img src="/images/publications/structure.jpg" alt="STRUCTURE Magazine Feature" style="max-width: 250px; float: right; margin-left: 2em; margin-bottom: 1em; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
 **AI versus Hand Calculations for Statically Indeterminate Structural Engineering Examples**
 
@@ -35,15 +35,10 @@ Our feature article in STRUCTURE Magazine (in press, December 2025) discusses pr
 
 Read our Medium article on synchronized high-sensitivity wireless sensing technology and its applications to bridge monitoring:
 
-<img src="/images/publications/symphony.png" alt="Revolutionizing Structural Health Monitoring" style="max-width: 400px; float: right; margin-left: 2em; margin-bottom: 1em; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<img src="/images/publications/symphony.png" alt="Revolutionizing Structural Health Monitoring" style="max-width: 250px; float: right; margin-left: 2em; margin-bottom: 1em; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
 **[Revolutionizing Structural Health Monitoring with Synchronized High-Sensitivity Wireless Sensors](https://medium.com/@shaikalthaf4/revolutionizing-structural-health-monitoring-with-a-synchronized-high-sensitivity-wireless-189553908117)**
 
 ---
+<div style="clear: both;"></div>
 
-## More Highlights
-
-- Full-scale seismic testing campaign for LifeArk modular housing (2025–2026)
-- AI-enabled drone inspections for damage prediction
-- Feature article in STRUCTURE Magazine (in press)
-- Seminar series on smart sensing and physics-informed AI at SDSU (Fall 2025)
