@@ -19,14 +19,14 @@
 }
 
 .masthead__logo img {
-  height: 58px;
+  height: 70px;
   width: auto;
   display: block;
 }
 
 @media (max-width: 768px) {
   .masthead__logo img {
-    height: 45px;
+    height: 60px;
   }
 }
 
@@ -53,7 +53,7 @@
 
 /* Reduce spacing between sidebar and main content */
 .sidebar {
-  margin-right: 1.5em;
+  margin-right: 4.5em;
 }
 
 @media (min-width: 64em) {
@@ -153,7 +153,7 @@
   margin-top: 2em;
   padding-top: 1.5em;
   border-top: 1px solid #e0e0e0;
-  text-align: center;
+  text-align: left;
 }
 
 .author__sdsu-logo img {
