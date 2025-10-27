@@ -93,6 +93,6 @@ Email: [ashajihan@sdsu.edu](mailto:ashajihan@sdsu.edu)
 
 <div style="text-align: center; margin-top: 3em; margin-bottom: 2em;">
   <a href="https://www.sdsu.edu" target="_blank">
-    <img src="/images/sdsu-logo.jpg" alt="San Diego State University" style="max-width: 300px; width: 100%; height: auto;">
+    <img src="/images/sdsu_1897.jpg" alt="San Diego State University" style="max-width: 300px; width: 100%; height: auto;">
   </a>
 </div>
