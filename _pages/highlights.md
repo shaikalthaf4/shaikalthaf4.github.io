@@ -33,11 +33,11 @@ Our feature article in STRUCTURE Magazine (in press, December 2025) discusses pr
 
 ## Featured Blog: Revolutionizing Structural Health Monitoring
 
-Read our Medium article on synchronized high-sensitivity wireless sensing technology and its applications to bridge monitoring:
-
 <img src="/images/publications/symphony.png" alt="Revolutionizing Structural Health Monitoring" style="max-width: 250px; float: right; margin-left: 2em; margin-bottom: 1em; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
 **[Revolutionizing Structural Health Monitoring with Synchronized High-Sensitivity Wireless Sensors](https://medium.com/@shaikalthaf4/revolutionizing-structural-health-monitoring-with-a-synchronized-high-sensitivity-wireless-189553908117)**
+
+Read our Medium article on synchronized high-sensitivity wireless sensing technology and its applications to bridge monitoring.
 
 ---
 <div style="clear: both;"></div>
