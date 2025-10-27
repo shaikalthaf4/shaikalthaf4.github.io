@@ -3,29 +3,29 @@
 /* SDSU Logo in masthead */
 .masthead__inner-wrap {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.masthead__menu {
+  flex: 1;
 }
 
 .masthead__logo {
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 20;
+  flex-shrink: 0;
+  padding-left: 1em;
 }
 
 .masthead__logo img {
-  height: 50px;
+  height: 45px;
   width: auto;
   display: block;
 }
 
 @media (max-width: 768px) {
-  .masthead__logo {
-    right: 10px;
-  }
-  
   .masthead__logo img {
-    height: 40px;
+    height: 35px;
   }
 }
 
