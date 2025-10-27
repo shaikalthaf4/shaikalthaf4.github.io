@@ -19,36 +19,36 @@
 }
 
 .masthead__logo img {
-  height: 50px;
+  height: 58px;
   width: auto;
   display: block;
 }
 
 @media (max-width: 768px) {
   .masthead__logo img {
-    height: 50px;
+    height: 45px;
   }
 }
 
-/* Navigation bar - keep default behavior but ensure visibility */
+/* Navigation bar - reduce padding to fit all tabs */
 .greedy-nav {
   background: #fff;
   border-bottom: 1px solid #e0e0e0;
 }
 
 .greedy-nav a {
-  padding: 0.5rem 0.8rem;
-  font-size: 0.9em;
+  padding: 0.5rem 0.6rem;
+  font-size: 0.85em;
 }
 
 .masthead__menu-item {
   padding: 0;
 }
 
-/* Site title */
+/* Site title - make more compact */
 .site-title {
-  font-size: 1.1em;
-  padding-right: 1em;
+  font-size: 1em;
+  padding-right: 0.5em;
 }
 
 /* Reduce spacing between sidebar and main content */
@@ -93,16 +93,6 @@
     padding-left: 1em;
     margin-left: 1em;
   }
-}
-
-/* Navigation bar improvements */
-.greedy-nav {
-  background: #fff;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-.greedy-nav a {
-  padding: 0.75rem 1rem;
 }
 
 /* Home page logo header */
