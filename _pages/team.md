@@ -89,7 +89,7 @@ author_profile: true
 }
 </style>
 
-## Director and Principal Investigator
+## Director
 
 <div class="team-section">
 
