@@ -138,28 +138,6 @@
   margin-top: 1em;
 }
 
-/* SDSU logo in sidebar */
-.author__sdsu-logo {
-  margin-top: 2em;
-  padding-top: 1.5em;
-  border-top: 0.1px solid #ffffff;
-  text-align: left;
-}
-
-.author__sdsu-logo img {
-  max-width: 100px;
-  width: 70%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  align-items: left;
-}
-
-.author__sdsu-logo a:hover img {
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
-}
-
 /* Better content width */
 @media (min-width: 80em) {
   .page {
