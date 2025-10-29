@@ -57,5 +57,3 @@ Undergraduate researchers can gain valuable hands-on experience, contribute to p
 - Representative publication or GitHub repo (if available)
 
 **For undergraduate positions:** Please email with your CV and a brief description of your interests and relevant coursework.
-
-We are committed to building a diverse and inclusive research team. Students from underrepresented groups are especially encouraged to apply.
