@@ -27,8 +27,8 @@ author_profile: true
 }
 
 .team-photo img {
-  width: 100%;
-  max-width: 300px;
+  width: 50%;
+  max-width: 150px;
   height: auto;
   border-radius: 8px;
   display: block;
@@ -45,7 +45,7 @@ author_profile: true
 .team-info h2 {
   margin-top: 0;
   margin-bottom: 0.3em;
-  font-size: 1.8em;
+  font-size: 1em;
   font-weight: 700;
 }
 
@@ -53,7 +53,7 @@ author_profile: true
   margin-top: 0;
   margin-bottom: 0.5em;
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: 300;
   text-transform: uppercase;
   color: #555;
 }
