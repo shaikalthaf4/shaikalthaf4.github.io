@@ -34,6 +34,19 @@ author_profile: true
   display: block;
 }
 
+.team-photo-circle img {
+  border-radius: 50%;
+}
+
+/* Smaller photos for students */
+.team-photo-small {
+  max-width: 180px;
+}
+
+.team-photo-small img {
+  max-width: 180px;
+}
+
 .team-info {
   overflow: hidden;
 }
@@ -52,6 +65,16 @@ author_profile: true
   font-weight: 600;
   text-transform: uppercase;
   color: #555;
+}
+
+/* Smaller headings for students */
+.team-info-student h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.team-info-student h3 {
+  font-size: 0.95em;
 }
 
 .team-info p {
@@ -123,6 +146,25 @@ author_profile: true
 ---
 
 ## Graduate Students
+
+<div class="team-section">
+
+<div class="team-profile clearfix">
+  <div class="team-photo team-photo-circle team-photo-small">
+    <img src="/images/SahilKatle_photo.JPG" alt="Sahil Katle">
+  </div>
+  
+  <div class="team-info team-info-student">
+    <h2><a href="https://www.linkedin.com/in/sahil-katle" target="_blank">Sahil Katle</a></h2>
+    <h3>M.S. Student in Computer Science</h3>
+    
+    <p>San Diego State University</p>
+    
+    <p>Sahil's research focuses on Physics-Informed Neural Networks (PINNs), deep learning, and structural simulations. Before joining SDSU, he worked as a Software Engineer at Bosch India, developing sustainable mobility solutions.</p>
+  </div>
+</div>
+
+</div>
 
 *We are currently recruiting PhD and MS students. See our [Positions](/positions/) page for opportunities.*
 
