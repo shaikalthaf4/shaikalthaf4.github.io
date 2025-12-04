@@ -19,9 +19,9 @@ The University of Illinois Smart Bridge [serves as a living laboratory](https://
 
 ## Featured in STRUCTURE Magazine
 
-<img src="/images/publications/structure.jpg" alt="STRUCTURE Magazine Feature" style="max-width: 250px; float: right; margin-left: 2em; margin-bottom: 1em; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<img src="/images/publications/structure2.jpg" alt="STRUCTURE Magazine Feature" style="max-width: 250px; float: right; margin-left: 2em; margin-bottom: 1em; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-**AI versus Hand Calculations for Statically Indeterminate Structural Engineering Examples**
+**[AI versus Hand Calculations for Statically Indeterminate Structural Engineering Examples](https://www.structuremag.org/article/ai-vs-hand-calculations/)**
 
 Our feature article in STRUCTURE Magazine (in press, December 2025) discusses practical pathways for incorporating AI-assisted analysis alongside conventional hand calculations when designing statically indeterminate structural systems. 
 
