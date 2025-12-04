@@ -23,7 +23,7 @@ The University of Illinois Smart Bridge [serves as a living laboratory](https://
 
 **[AI versus Hand Calculations for Statically Indeterminate Structural Engineering Examples](https://www.structuremag.org/article/ai-vs-hand-calculations/)**
 
-Our feature article in STRUCTURE Magazine (in press, December 2025) discusses practical pathways for incorporating AI-assisted analysis alongside conventional hand calculations when designing statically indeterminate structural systems. 
+Our feature article in STRUCTURE Magazine Dec 2025 issue discusses practical pathways for incorporating AI-assisted analysis alongside conventional hand calculations when designing statically indeterminate structural systems.
 
 *Authors: Dowell, R. K., & Shajihan, A.*
 
