@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-pinn-railroad-bridges
 excerpt: "PINN framework fuses sensing, inspection, and simulation for railroad truss bridge damage diagnosis."
-date: 2025-02-01
+date: 2026-02-01
 venue: "Structure and Infrastructure Engineering Journal"
 paperurl: "https://doi.org/10.1080/15732479.2026.2628861"
 authors: "Shajihan, A.; Mechitov, K.; Chowdhary, G.; Spencer Jr, B. F."
