@@ -78,7 +78,7 @@ Our work spans the intersection of structural engineering, machine learning, and
 
 ## Join Our Team
 
-We are actively recruiting motivated students at all levels. See our [Positions](/positions/) page for current opportunities, including fully funded PhD positions for Fall 2026.
+We are actively recruiting motivated students at all levels. See our [Positions](/positions/) page for current opportunities, including fully funded PhD positions for Fall 2027.
 
 ## Contact
 
