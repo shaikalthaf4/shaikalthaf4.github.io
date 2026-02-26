@@ -245,7 +245,17 @@ author_profile: true
 
 ## Undergraduate Researchers
 
-*Undergraduate research positions are available. Contact Dr. Shajihan to discuss potential projects.*
+<div class="student-grid">
+
+  <div class="student-card">
+    <h3 class="student-name">Alicia Bertino</h3>
+    <p class="student-degree">B.S. in Mechanical Engineering</p>
+    <p class="student-email"><a href="mailto:abertino9105@sdsu.edu">abertino9105@sdsu.edu</a></p>
+  </div>
+
+</div>
+
+*Additional undergraduate research positions are available. Contact Dr. Shajihan to discuss potential projects.*
 
 ---
 
