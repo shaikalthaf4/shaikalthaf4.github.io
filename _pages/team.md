@@ -185,11 +185,11 @@ author_profile: true
 
 ---
 
-## Alumni
+<!-- ## Alumni
 
 <div class="alumni-grid">
   <div class="alumni-card">
     <img src="/images/SahilKatle_photo.JPG" alt="Sahil Katle">
     <p><strong>Sahil Katle</strong><br>M.S. Student in Computer Science</p>
   </div>
-</div>
+</div> -->
