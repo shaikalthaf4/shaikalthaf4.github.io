@@ -180,13 +180,11 @@ author_profile: true
   <div class="student-card">
     <h3 class="student-name">Docean Park</h3>
     <p class="student-degree">M.S. Student in Civil Engineering</p>
-    <p class="student-email"><a href="mailto:dpark4678@sdsu.edu">dpark4678@sdsu.edu</a></p>
   </div>
 
   <div class="student-card">
     <h3 class="student-name">Stephanie Bech</h3>
     <p class="student-degree">M.S. Student in Civil Engineering</p>
-    <p class="student-email"><a href="mailto:sbech9582@sdsu.edu">sbech9582@sdsu.edu</a></p>
   </div>
 
 </div>
@@ -250,7 +248,6 @@ author_profile: true
   <div class="student-card">
     <h3 class="student-name">Alicia Bertino</h3>
     <p class="student-degree">B.S. in Mechanical Engineering</p>
-    <p class="student-email"><a href="mailto:abertino9105@sdsu.edu">abertino9105@sdsu.edu</a></p>
   </div>
 
 </div>
