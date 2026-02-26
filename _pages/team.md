@@ -175,7 +175,71 @@ author_profile: true
 
 ## Graduate Students
 
-*We are currently recruiting PhD and MS students. See our [Positions](/positions/) page for opportunities.*
+<div class="student-grid">
+
+  <div class="student-card">
+    <h3 class="student-name">Docean Park</h3>
+    <p class="student-degree">M.S. Student in Civil Engineering</p>
+    <p class="student-email"><a href="mailto:dpark4678@sdsu.edu">dpark4678@sdsu.edu</a></p>
+  </div>
+
+  <div class="student-card">
+    <h3 class="student-name">Stephanie Bech</h3>
+    <p class="student-degree">M.S. Student in Civil Engineering</p>
+    <p class="student-email"><a href="mailto:sbech9582@sdsu.edu">sbech9582@sdsu.edu</a></p>
+  </div>
+
+</div>
+
+<style>
+.student-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.student-card {
+  background: #f9f9f9;
+  border-left: 4px solid #c41230;
+  border-radius: 6px;
+  padding: 1.2em 1.5em;
+  min-width: 240px;
+  flex: 1 1 240px;
+  max-width: 340px;
+}
+
+.student-name {
+  margin: 0 0 0.3em 0;
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #222;
+}
+
+.student-degree {
+  margin: 0 0 0.3em 0;
+  font-size: 0.95em;
+  color: #555;
+  font-style: italic;
+}
+
+.student-email {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.student-email a {
+  color: #c41230;
+  text-decoration: none;
+}
+
+.student-email a:hover {
+  text-decoration: underline;
+}
+</style>
+
+*We are actively recruiting additional PhD and MS students. See our [Positions](/positions/) page for opportunities.*
 
 ---
 
