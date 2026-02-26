@@ -5,8 +5,65 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+.teaching-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5em;
+  font-size: 1em;
+}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+.teaching-table th {
+  text-align: left;
+  padding: 0.6em 1em;
+  border-bottom: 2px solid #c41230;
+  font-weight: 700;
+  color: #333;
+  white-space: nowrap;
+}
+
+.teaching-table td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: top;
+}
+
+.teaching-table tr:last-child td {
+  border-bottom: none;
+}
+
+.teaching-table .course-num {
+  font-weight: 600;
+  white-space: nowrap;
+  color: #222;
+}
+
+.teaching-table .semester {
+  white-space: nowrap;
+  color: #555;
+}
+</style>
+
+## San Diego State University
+
+<table class="teaching-table">
+  <thead>
+    <tr>
+      <th>Course</th>
+      <th>Title</th>
+      <th>Semester</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="course-num">CIVE 605</td>
+      <td>Prestressed Concrete Structures</td>
+      <td class="semester">Spring 2026</td>
+    </tr>
+    <tr>
+      <td class="course-num">CIVE 421</td>
+      <td>Reinforced Concrete Design</td>
+      <td class="semester">Fall 2025</td>
+    </tr>
+  </tbody>
+</table>
