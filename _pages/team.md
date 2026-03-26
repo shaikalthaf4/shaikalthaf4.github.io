@@ -187,6 +187,11 @@ author_profile: true
     <p class="student-degree">M.S. Student in Civil Engineering</p>
   </div>
 
+  <div class="student-card">
+    <h3 class="student-name">Dhrumil Panchal</h3>
+    <p class="student-degree">M.S. Student in Big Data Analytics</p>
+  </div>
+
 </div>
 
 <style>
