@@ -178,12 +178,12 @@ author_profile: true
 <div class="student-grid">
 
   <div class="student-card">
-    <h3 class="student-name">Docean Park</h3>
-    <p class="student-degree">M.S. Student in Civil Engineering</p>
+    <h3 class="student-name">Martha Winning</h3>
+    <p class="student-degree">DAAD RISE Visiting Research Scholar</p>
   </div>
 
   <div class="student-card">
-    <h3 class="student-name">Stephanie Bech</h3>
+    <h3 class="student-name">Docean Park</h3>
     <p class="student-degree">M.S. Student in Civil Engineering</p>
   </div>
 
@@ -248,7 +248,18 @@ author_profile: true
 
 ## Undergraduate Researchers
 
+*Additional undergraduate research positions are available. Contact Dr. Shajihan to discuss potential projects.*
+
+---
+
+## Alumni
+
 <div class="student-grid">
+
+  <div class="student-card">
+    <h3 class="student-name">Stephanie Bech</h3>
+    <p class="student-degree">M.S. Student in Civil Engineering</p>
+  </div>
 
   <div class="student-card">
     <h3 class="student-name">Alicia Bertino</h3>
@@ -256,8 +267,6 @@ author_profile: true
   </div>
 
 </div>
-
-*Additional undergraduate research positions are available. Contact Dr. Shajihan to discuss potential projects.*
 
 ---
 
