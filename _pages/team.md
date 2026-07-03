@@ -248,7 +248,29 @@ author_profile: true
 
 ## Undergraduate Researchers
 
-*Additional undergraduate research positions are available. Contact Dr. Shajihan to discuss potential projects.*
+<p>MESA Exchange research scholars from <a href="https://www.swccd.edu/" target="_blank">Southwestern College: Chula Vista, California</a>.</p>
+
+<div class="student-grid">
+
+  <div class="student-card">
+    <h3 class="student-name">Helmer Avila Palacio</h3>
+    <p class="student-degree">MESA Exchange Research Scholar</p>
+    <p class="student-degree">B.S. in Electrical Engineering</p>
+  </div>
+
+  <div class="student-card">
+    <h3 class="student-name">Carlos Hernandez</h3>
+    <p class="student-degree">MESA Exchange Research Scholar</p>
+    <p class="student-degree">B.S. in Mechanical Engineering</p>
+  </div>
+
+  <div class="student-card">
+    <h3 class="student-name">Gabriel Leyva</h3>
+    <p class="student-degree">MESA Exchange Research Scholar</p>
+    <p class="student-degree">B.S. in Electrical Engineering</p>
+  </div>
+
+</div>
 
 ---
 
