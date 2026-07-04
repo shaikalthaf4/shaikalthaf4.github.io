@@ -11,21 +11,35 @@ author_profile: true
   border-collapse: collapse;
   margin-top: 1.5em;
   font-size: 1em;
+  background: var(--prism-surface);
+  border: 1px solid var(--prism-border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px var(--prism-shadow);
 }
 
 .teaching-table th {
   text-align: left;
-  padding: 0.6em 1em;
-  border-bottom: 2px solid #c41230;
+  padding: 0.75em 1.1em;
+  background: var(--prism-red-soft);
+  border-bottom: 2px solid var(--prism-red);
   font-weight: 700;
-  color: #333;
+  color: var(--prism-red-text);
   white-space: nowrap;
 }
 
 .teaching-table td {
-  padding: 0.75em 1em;
-  border-bottom: 1px solid #e0e0e0;
+  padding: 0.8em 1.1em;
+  border-bottom: 1px solid var(--prism-border);
   vertical-align: top;
+}
+
+.teaching-table tbody tr {
+  transition: background 0.15s ease;
+}
+
+.teaching-table tbody tr:hover {
+  background: var(--prism-red-soft);
 }
 
 .teaching-table tr:last-child td {
@@ -35,12 +49,11 @@ author_profile: true
 .teaching-table .course-num {
   font-weight: 600;
   white-space: nowrap;
-  color: #222;
 }
 
 .teaching-table .semester {
   white-space: nowrap;
-  color: #555;
+  color: var(--prism-muted);
 }
 </style>
 

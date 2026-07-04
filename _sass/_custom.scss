@@ -177,11 +177,12 @@
 }
 
 /* Section headings — SDSU brand red underline for consistency with cards */
-.page__content h2 {
+.page__content h2,
+.archive h2 {
   margin-top: 2em;
   margin-bottom: 1em;
-  padding-bottom: 0.5em;
-  border-bottom: 2px solid #c41230;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid var(--prism-red);
 }
 
 .page__content h3 {
@@ -199,3 +200,313 @@
 .page__content hr {
   margin: 2em 0;
 }
+
+/* ==========================================================================
+   PRISM LAB — DESIGN SYSTEM  (site-wide redesign)
+   Cohesive, responsive, dark-mode-aware components + interactivity.
+   ========================================================================== */
+
+/* ---- Design tokens (brand red stays constant; text/soft tints adapt) ---- */
+:root {
+  --prism-red:        #c41230;   /* SDSU brand red — accents & borders */
+  --prism-red-hover:  #9e0f26;
+  --prism-red-text:   #c41230;   /* red used as text/links */
+  --prism-red-soft:   rgba(196, 18, 48, 0.07);
+  --prism-muted:      #5a5f66;
+  --prism-surface:    #ffffff;
+  --prism-surface-2:  #f7f8fa;
+  --prism-border:     #e6e8eb;
+  --prism-shadow:     rgba(20, 24, 31, 0.09);
+  --prism-shadow-lg:  rgba(20, 24, 31, 0.17);
+}
+
+html[data-theme="dark"] {
+  --prism-red-text:   #ff6b83;   /* lighten red text for contrast on dark */
+  --prism-red-hover:  #ff8ea0;
+  --prism-red-soft:   rgba(255, 107, 131, 0.12);
+  --prism-muted:      #aab0b7;
+  --prism-surface:    #23272d;
+  --prism-surface-2:  #2a2f36;
+  --prism-border:     #363c44;
+  --prism-shadow:     rgba(0, 0, 0, 0.40);
+  --prism-shadow-lg:  rgba(0, 0, 0, 0.60);
+}
+
+/* Smooth in-page scrolling */
+html { scroll-behavior: smooth; }
+
+/* ---- Brand buttons ---- */
+.btn--primary {
+  background-color: var(--prism-red);
+  border-color: var(--prism-red);
+}
+.btn--primary:hover {
+  background-color: var(--prism-red-hover);
+  border-color: var(--prism-red-hover);
+}
+
+/* ---- Reusable card grid ---- */
+.prism-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.25rem;
+}
+
+.prism-card {
+  background: var(--prism-surface);
+  border: 1px solid var(--prism-border);
+  border-radius: 12px;
+  padding: 1.4rem 1.5rem;
+  box-shadow: 0 1px 2px var(--prism-shadow);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.prism-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px var(--prism-shadow-lg);
+  border-color: var(--prism-red);
+}
+.prism-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--prism-red-soft);
+  color: var(--prism-red-text);
+  font-size: 1.3rem;
+  margin-bottom: 0.9rem;
+}
+.prism-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.12rem;
+  line-height: 1.3;
+}
+.prism-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--prism-muted);
+}
+
+/* ---- Highlighted callout box ---- */
+.prism-callout {
+  background: var(--prism-red-soft);
+  border: 1px solid var(--prism-border);
+  border-left: 5px solid var(--prism-red);
+  border-radius: 10px;
+  padding: 1.4rem 1.6rem;
+  margin: 1.5rem 0 2rem;
+}
+.prism-callout > :first-child { margin-top: 0; }
+.prism-callout > :last-child { margin-bottom: 0; }
+.prism-callout h2,
+.prism-callout h3 {
+  margin-top: 0.2rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.prism-badge {
+  display: inline-block;
+  background: var(--prism-red);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.3em 0.75em;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+
+/* ---- Simple pill list (used for project / focus lists) ---- */
+.prism-list,
+.page__content ul.prism-list,
+.archive ul.prism-list {
+  list-style: none;
+  margin: 1.25rem 0 2rem;
+  padding: 0;
+}
+.prism-list li {
+  position: relative;
+  background: var(--prism-surface-2);
+  border: 1px solid var(--prism-border);
+  border-radius: 10px;
+  padding: 0.85rem 1rem 0.85rem 2.6rem;
+  margin-bottom: 0.7rem;
+  transition: border-color 0.18s ease, transform 0.18s ease;
+}
+.prism-list li:hover {
+  border-color: var(--prism-red);
+  transform: translateX(3px);
+}
+.prism-list li::before {
+  content: "\f054"; /* fa chevron-right */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: var(--prism-red-text);
+  position: absolute;
+  left: 1rem;
+  top: 0.95rem;
+  font-size: 0.8rem;
+}
+
+/* ---- Home hero enhancements ---- */
+.prism-hero__tagline {
+  color: var(--prism-muted);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  max-width: 640px;
+  margin: 0.75rem auto 1.5rem;
+}
+.prism-hero__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.prism-hero__cta .btn { margin: 0; }
+
+/* Dark-mode fixes for page-level inline components */
+html[data-theme="dark"] .prism-title { color: #eef0f2; }
+html[data-theme="dark"] .prism-header { border-bottom-color: var(--prism-border); }
+
+/* ---- Publications (moved out of per-item include; styled as cards) ---- */
+.publications-list { margin-top: 1.5rem; }
+
+.publication-category-title {
+  margin: 1.9rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--prism-red);
+  color: var(--prism-red-text);
+  font-size: 1.5rem;
+}
+
+.publication-item {
+  background: var(--prism-surface);
+  border: 1px solid var(--prism-border);
+  border-radius: 12px;
+  padding: 1.4rem;
+  margin-bottom: 1.4rem;
+  box-shadow: 0 1px 2px var(--prism-shadow);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.publication-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px var(--prism-shadow-lg);
+  border-color: var(--prism-red);
+}
+.publication-article {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+.publication-image {
+  flex-shrink: 0;
+  width: 230px;
+}
+.publication-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px var(--prism-shadow);
+}
+.publication-content { flex-grow: 1; }
+.publication-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+.publication-title a {
+  text-decoration: none;
+  color: var(--prism-red-text);
+}
+.publication-title a:hover { text-decoration: underline; }
+.publication-authors {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  color: var(--prism-muted);
+}
+.publication-venue {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: var(--prism-muted);
+}
+.publication-excerpt {
+  margin: 0.7rem 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.publication-link { margin-top: 0.9rem; }
+
+@media (max-width: 768px) {
+  .publication-article { flex-direction: column; }
+  .publication-image { width: 100%; max-width: 320px; }
+}
+
+/* ---- Scroll-reveal animation (added via JS; safe if JS/anim disabled) ---- */
+.prism-reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  will-change: opacity, transform;
+}
+.prism-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .prism-reveal { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* ---- Back-to-top button (injected via JS) ---- */
+.prism-top {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: var(--prism-red);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.25s ease, transform 0.25s ease, background 0.2s ease;
+  box-shadow: 0 6px 18px var(--prism-shadow-lg);
+  z-index: 30;
+}
+.prism-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+.prism-top:hover { background: var(--prism-red-hover); }
+
+/* ---- Animated nav underline on hover ---- */
+.masthead__menu .visible-links a {
+  position: relative;
+}
+.masthead__menu .visible-links a::after {
+  content: "";
+  position: absolute;
+  left: 0.6em;
+  right: 0.6em;
+  bottom: 0.1em;
+  height: 2px;
+  background: var(--prism-red);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.22s ease;
+}
+.masthead__menu .visible-links a:hover::after { transform: scaleX(1); }
+#theme-toggle a::after { display: none; }

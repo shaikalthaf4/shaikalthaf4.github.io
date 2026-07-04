@@ -7,18 +7,21 @@ author_profile: true
 
 The PRISM Lab is actively recruiting motivated students at all levels to join our research team. We work at the intersection of structural engineering, machine learning, and embedded systems to develop next-generation infrastructure monitoring technologies.
 
-## Fully Funded PhD Positions - Fall 2027
+<div class="prism-callout" markdown="1">
+<span class="prism-badge">Now Hiring &middot; Fall 2027</span>
 
-We have **1 funded PhD position** available starting Fall 2027 in our lab with the University of California San Diego **UCSD-SDSU Joint PhD Program**. Successful candidates will receive:
+## Fully Funded PhD Position
+
+**1 funded PhD position** is available starting Fall 2027 through the University of California San Diego **UCSD–SDSU Joint PhD Program**. Successful candidates receive:
 
 - Tuition waiver
 - Competitive stipend
 - Access to state-of-the-art laboratory facilities
 
-**Program and Application Instructions:**
-[UCSD-SDSU Joint Doctoral Program - SDSU College of Engineering](https://www.engineering.sdsu.edu/admissions/joint-doctoral)
+**Program &amp; application instructions:** [UCSD–SDSU Joint Doctoral Program — SDSU College of Engineering](https://www.engineering.sdsu.edu/admissions/joint-doctoral)
 
-**Application Deadline: December 1, 2026**
+**Application deadline: December 1, 2026**
+</div>
 
 **Ideal candidates have:**
 - Strong background in civil/structural engineering, computer science, or related fields
