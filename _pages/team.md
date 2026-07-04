@@ -205,12 +205,19 @@ author_profile: true
 
 .student-card {
   background: #f9f9f9;
+  border: 1px solid #ececec;
   border-left: 4px solid #c41230;
   border-radius: 6px;
   padding: 1.2em 1.5em;
   min-width: 240px;
   flex: 1 1 240px;
   max-width: 340px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
 .student-name {
@@ -225,6 +232,25 @@ author_profile: true
   font-size: 0.95em;
   color: #555;
   font-style: italic;
+}
+
+/* Dark theme support for cards */
+html[data-theme="dark"] .student-card {
+  background: #24292e;
+  border-color: #333a41;
+  border-left-color: #c41230;
+}
+
+html[data-theme="dark"] .student-name {
+  color: #f0f0f0;
+}
+
+html[data-theme="dark"] .student-degree {
+  color: #b8bdc2;
+}
+
+html[data-theme="dark"] .student-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
 }
 
 .student-email {
@@ -247,8 +273,6 @@ author_profile: true
 ---
 
 ## Undergraduate Researchers
-
-<p>MESA Exchange research scholars from <a href="https://www.swccd.edu/" target="_blank">Southwestern College: Chula Vista, California</a>.</p>
 
 <div class="student-grid">
 

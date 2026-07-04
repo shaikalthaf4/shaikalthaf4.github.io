@@ -79,11 +79,22 @@
     float: right;
     width: calc(100% - 300px);
     padding-right: 1em;
-    
+
     .page__content {
       margin-left: 1em;
       padding-left: 1em;
     }
+  }
+}
+
+/* Archive layout pages (e.g. Team) use `.archive`, not `.page`, so they need
+   the same sidebar compensation — otherwise the fixed sidebar overlaps content. */
+.archive {
+  @media (min-width: 64em) {
+    float: right;
+    width: calc(100% - 300px);
+    padding-right: 1em;
+    margin-left: 0;
   }
 }
 
@@ -140,11 +151,12 @@
 
 /* Better content width */
 @media (min-width: 80em) {
-  .page {
+  .page,
+  .archive {
     width: calc(100% - 350px);
     padding-right: 2em;
   }
-  
+
   .page__content {
     margin-left: 2em;
   }
@@ -164,12 +176,12 @@
   margin-bottom: 1.5em;
 }
 
-/* Section headings */
+/* Section headings — SDSU brand red underline for consistency with cards */
 .page__content h2 {
   margin-top: 2em;
   margin-bottom: 1em;
   padding-bottom: 0.5em;
-  border-bottom: 2px solid #0066cc;
+  border-bottom: 2px solid #c41230;
 }
 
 .page__content h3 {
