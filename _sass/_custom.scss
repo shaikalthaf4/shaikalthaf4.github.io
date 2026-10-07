@@ -511,74 +511,111 @@ html[data-theme="dark"] .prism-header { border-bottom-color: var(--prism-border)
 .masthead__menu .visible-links a:hover::after { transform: scaleX(1); }
 #theme-toggle a::after { display: none; }
 
-/* ---- Research overview figure: blends into the page instead of floating as a box ---- */
-.prism-figure {
-  margin: 1.5rem auto 2.25rem;
-  max-width: 460px;
-  text-align: center;
+/* ---- Research overview figure: small, centered, blends into the page ---- */
+.page__content .prism-figure,
+.archive .prism-figure {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  margin: 1.25rem auto 2rem;
 }
 .prism-figure img {
   display: block;
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 0;
   border-radius: 16px;
   mix-blend-mode: multiply; /* white PNG background disappears on the light page */
 }
 html[data-theme="dark"] .prism-figure img {
   mix-blend-mode: normal;
   background: #f4f5f7;
-  padding: 1rem;
-  box-shadow: 0 0 0 1px var(--prism-border);
+  padding: 0.75rem;
 }
 
-/* ---- Home: news timeline ---- */
-.prism-news { margin: 1rem 0 2.5rem; }
+/* ---- Home: news as a compact dated list ---- */
+.page__content ul.prism-news {
+  list-style: none;
+  margin: 0.75rem 0 2.25rem;
+  padding: 0;
+}
 .prism-news__item {
   display: grid;
-  grid-template-columns: 7.5rem 1fr;
-  gap: 1.25rem;
-  padding: 1.15rem 0;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.65rem 0;
   border-top: 1px solid var(--prism-border);
+  line-height: 1.5;
 }
 .prism-news__item:last-child { border-bottom: 1px solid var(--prism-border); }
 .prism-news__date {
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--prism-red-text);
-  padding-top: 0.25rem;
-}
-.page__content .prism-news__body h3 {
-  margin: 0 0 0.35rem;
-  font-size: 1.08rem;
-  line-height: 1.35;
-}
-.page__content .prism-news__body p {
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.6;
   color: var(--prism-muted);
+  white-space: nowrap;
 }
+.prism-news__item--new .prism-news__date { color: var(--prism-red-text); }
+.prism-news__text { font-size: 0.98rem; }
+.prism-news__text strong { font-weight: 600; }
+.prism-star {
+  color: #e0a100;
+  font-size: 0.85em;
+  margin-right: 0.15rem;
+  animation: prism-twinkle 1.4s ease-in-out infinite;
+}
+@keyframes prism-twinkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: 0.35; transform: scale(0.8); }
+}
+@media (prefers-reduced-motion: reduce) { .prism-star { animation: none; } }
 @media (max-width: 600px) {
-  .prism-news__item { grid-template-columns: 1fr; gap: 0.25rem; }
+  .prism-news__item { grid-template-columns: 1fr; gap: 0.1rem; }
 }
 
-/* ---- Home: research focus as a quiet definition list ---- */
-.prism-focus { margin: 1rem 0 2rem; }
-.prism-focus > div {
+/* ---- Home: research focus with real thumbnails ---- */
+.prism-focus {
   display: grid;
-  grid-template-columns: 15rem 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.75rem 1.75rem;
+  margin: 1rem 0 2rem;
+}
+.page__content a.prism-focus__item {
+  display: grid;
+  grid-template-columns: 72px 1fr;
   gap: 1rem;
-  padding: 0.7rem 0;
+  align-items: center;
+  padding: 0.6rem 0;
+  color: inherit;
+  text-decoration: none;
   border-bottom: 1px solid var(--prism-border);
 }
-.prism-focus dt { font-weight: 600; margin: 0; }
-.prism-focus dd { margin: 0; color: var(--prism-muted); font-size: 0.95rem; }
-@media (max-width: 600px) {
-  .prism-focus > div { grid-template-columns: 1fr; gap: 0.15rem; }
+.prism-focus__item img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 1px 3px var(--prism-shadow);
+  transition: transform 0.2s ease;
 }
+.prism-focus__item:hover img { transform: scale(1.06); }
+.prism-focus__item span {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--prism-muted);
+}
+.prism-focus__item strong {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: inherit;
+  margin-bottom: 0.1rem;
+}
+html[data-theme="dark"] .prism-focus__item strong { color: #eef0f2; }
+.prism-focus__item:hover strong { color: var(--prism-red-text); }
 
 /* ---- Home: understated recruiting note ---- */
 .prism-join {
