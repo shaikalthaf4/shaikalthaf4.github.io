@@ -183,6 +183,16 @@ author_profile: true
   </div>
 
   <div class="student-card">
+    <h3 class="student-name">Yaseer Hashemi</h3>
+    <p class="student-degree">M.S. Student in Civil Engineering</p>
+  </div>
+
+  <div class="student-card">
+    <h3 class="student-name">Carlos Navea</h3>
+    <p class="student-degree">M.S. Student in Civil Engineering</p>
+  </div>
+
+  <div class="student-card">
     <h3 class="student-name">Docean Park</h3>
     <p class="student-degree">M.S. Student in Civil Engineering</p>
   </div>
@@ -277,21 +287,33 @@ html[data-theme="dark"] .student-card:hover {
 <div class="student-grid">
 
   <div class="student-card">
-    <h3 class="student-name">Helmer Avila Palacio</h3>
-    <p class="student-degree">MESA Exchange Research Scholar</p>
-    <p class="student-degree">B.S. in Electrical Engineering</p>
+    <h3 class="student-name">Anelise Pitroda</h3>
+    <p class="student-degree">B.S. in Civil Engineering</p>
   </div>
 
   <div class="student-card">
-    <h3 class="student-name">Carlos Hernandez</h3>
-    <p class="student-degree">MESA Exchange Research Scholar</p>
-    <p class="student-degree">B.S. in Mechanical Engineering</p>
+    <h3 class="student-name">Dylan Zepeda</h3>
+    <p class="student-degree">B.S. in Civil Engineering</p>
   </div>
 
   <div class="student-card">
-    <h3 class="student-name">Gabriel Leyva</h3>
-    <p class="student-degree">MESA Exchange Research Scholar</p>
-    <p class="student-degree">B.S. in Electrical Engineering</p>
+    <h3 class="student-name">Kimberly Dinh</h3>
+    <p class="student-degree">B.S. in Civil Engineering</p>
+  </div>
+
+  <div class="student-card">
+    <h3 class="student-name">Mia Pang</h3>
+    <p class="student-degree">B.S. in Civil Engineering</p>
+  </div>
+
+  <div class="student-card">
+    <h3 class="student-name">Paul Yorba</h3>
+    <p class="student-degree">B.S. in Civil Engineering</p>
+  </div>
+
+  <div class="student-card">
+    <h3 class="student-name">Tristen Mirafuente</h3>
+    <p class="student-degree">B.S. in Civil Engineering</p>
   </div>
 
 </div>
@@ -310,6 +332,24 @@ html[data-theme="dark"] .student-card:hover {
   <div class="student-card">
     <h3 class="student-name">Alicia Bertino</h3>
     <p class="student-degree">B.S. in Mechanical Engineering</p>
+  </div>
+
+  <div class="student-card">
+    <h3 class="student-name">Helmer Avila Palacio</h3>
+    <p class="student-degree">MESA Exchange Research Scholar</p>
+    <p class="student-degree">B.S. in Electrical Engineering</p>
+  </div>
+
+  <div class="student-card">
+    <h3 class="student-name">Carlos Hernandez</h3>
+    <p class="student-degree">MESA Exchange Research Scholar</p>
+    <p class="student-degree">B.S. in Mechanical Engineering</p>
+  </div>
+
+  <div class="student-card">
+    <h3 class="student-name">Gabriel Leyva</h3>
+    <p class="student-degree">MESA Exchange Research Scholar</p>
+    <p class="student-degree">B.S. in Electrical Engineering</p>
   </div>
 
 </div>
