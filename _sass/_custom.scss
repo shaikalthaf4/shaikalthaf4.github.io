@@ -539,40 +539,65 @@ html[data-theme="dark"] .prism-figure img {
   margin: 0.75rem 0 2.25rem;
   padding: 0;
 }
-.prism-news__item {
+.page__content .prism-news__item {
   display: grid;
-  grid-template-columns: 5.5rem 1fr;
-  gap: 1rem;
+  grid-template-columns: 6rem 1fr;
+  column-gap: 1.75rem;
   align-items: baseline;
-  padding: 0.65rem 0;
+  padding: 0.75rem 0;
+  margin: 0;
   border-top: 1px solid var(--prism-border);
   line-height: 1.5;
 }
 .prism-news__item:last-child { border-bottom: 1px solid var(--prism-border); }
 .prism-news__date {
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--prism-muted);
   white-space: nowrap;
+  text-align: right;
+  padding-right: 1.25rem;
+  border-right: 2px solid var(--prism-border);
 }
-.prism-news__item--new .prism-news__date { color: var(--prism-red-text); }
+.prism-news__item--new .prism-news__date {
+  color: var(--prism-red-text);
+  border-right-color: var(--prism-red);
+}
 .prism-news__text { font-size: 0.98rem; }
 .prism-news__text strong { font-weight: 600; }
+
+/* Gold star with a shimmer: colour pulses between deep gold and bright yellow
+   while a soft glow breathes behind it. */
 .prism-star {
-  color: #e0a100;
-  font-size: 0.85em;
-  margin-right: 0.15rem;
-  animation: prism-twinkle 1.4s ease-in-out infinite;
+  display: inline-block;
+  color: #f5b301;
+  font-size: 0.9em;
+  margin-right: 0.3rem;
+  vertical-align: -0.05em;
+  text-shadow: 0 0 2px rgba(245, 179, 1, 0.6);
+  animation: prism-shine 1.8s ease-in-out infinite;
+  transform-origin: center;
 }
-@keyframes prism-twinkle {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50%      { opacity: 0.35; transform: scale(0.8); }
+@keyframes prism-shine {
+  0%, 100% {
+    color: #d99a00;
+    text-shadow: 0 0 2px rgba(245, 179, 1, 0.4);
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    color: #ffd84d;
+    text-shadow: 0 0 6px rgba(255, 216, 77, 0.95), 0 0 14px rgba(255, 200, 0, 0.55);
+    transform: scale(1.25) rotate(18deg);
+  }
 }
-@media (prefers-reduced-motion: reduce) { .prism-star { animation: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .prism-star { animation: none; color: #f5b301; }
+}
 @media (max-width: 600px) {
-  .prism-news__item { grid-template-columns: 1fr; gap: 0.1rem; }
+  .page__content .prism-news__item { grid-template-columns: 1fr; row-gap: 0.1rem; }
+  .prism-news__date { text-align: left; border-right: none; padding-right: 0; }
 }
 
 /* ---- Home: research focus with real thumbnails ---- */
@@ -584,7 +609,7 @@ html[data-theme="dark"] .prism-figure img {
 }
 .page__content a.prism-focus__item {
   display: grid;
-  grid-template-columns: 72px 1fr;
+  grid-template-columns: 88px 1fr;
   gap: 1rem;
   align-items: center;
   padding: 0.6rem 0;
@@ -593,8 +618,8 @@ html[data-theme="dark"] .prism-figure img {
   border-bottom: 1px solid var(--prism-border);
 }
 .prism-focus__item img {
-  width: 72px;
-  height: 72px;
+  width: 88px;
+  height: 88px;
   object-fit: cover;
   border-radius: 10px;
   background: #fff;

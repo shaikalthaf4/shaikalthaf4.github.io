@@ -99,23 +99,23 @@ Welcome to the PRISM Lab at San Diego State University. We develop AI-enabled sm
 
 <div class="prism-focus">
   <a class="prism-focus__item" href="/research/">
-    <img src="/images/publications/smartvision-bridge.png" alt="Wireless smart vision sensors monitoring a railroad bridge">
+    <img src="/images/focus/shm.png" alt="Wireless smart vision sensors monitoring a railroad bridge" width="88" height="88" loading="lazy" style="width:88px;height:88px;object-fit:cover;border-radius:12px;">
     <span><strong>Structural Health Monitoring</strong>Autonomous condition assessment of bridges and critical infrastructure.</span>
   </a>
   <a class="prism-focus__item" href="/research/">
-    <img src="/images/publications/edge-ai-sensor.png" alt="Xnode wireless sensor installed on a railroad bridge">
+    <img src="/images/focus/edge-ai.png" alt="Xnode wireless sensor installed on a railroad bridge" width="88" height="88" loading="lazy" style="width:88px;height:88px;object-fit:cover;border-radius:12px;">
     <span><strong>Smart Sensing &amp; Edge AI</strong>Wireless hardware and embedded intelligence at the edge.</span>
   </a>
   <a class="prism-focus__item" href="/research/">
-    <img src="/images/publications/drone-bridge-inspection.jpg" alt="UAV flight path over a bridge point cloud">
+    <img src="/images/focus/vision.png" alt="UAV flight path over a bridge point cloud" width="88" height="88" loading="lazy" style="width:88px;height:88px;object-fit:cover;border-radius:12px;">
     <span><strong>Computer Vision &amp; Generative AI</strong>Drone- and camera-based inspection for damage detection.</span>
   </a>
   <a class="prism-focus__item" href="/research/">
-    <img src="/images/publications/pinn.jpg" alt="Physics-informed recurrent neural network for bridge response">
+    <img src="/images/focus/pinn.png" alt="Physics-informed recurrent neural network for bridge response" width="88" height="88" loading="lazy" style="width:88px;height:88px;object-fit:cover;border-radius:12px;">
     <span><strong>Scientific ML &amp; PINNs</strong>Fusing physics, field data, and simulation for trustworthy predictions.</span>
   </a>
   <a class="prism-focus__item" href="/research/">
-    <img src="/images/publications/miter-gates.png" alt="Vision-based model updating of a navigation lock miter gate">
+    <img src="/images/focus/digital-twin.png" alt="3D model of the full-scale LifeArk test setup" width="88" height="88" loading="lazy" style="width:88px;height:88px;object-fit:cover;border-radius:12px;">
     <span><strong>Digital Twins for Resilience</strong>Real-time decision support after earthquakes and natural hazards.</span>
   </a>
 </div>
