@@ -205,62 +205,36 @@ author_profile: true
 </div>
 
 <style>
+/* Roster: quiet two-column list with hairlines, no boxes */
 .student-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  column-gap: 2.5em;
+  margin: 0.75em 0 1.5em;
 }
 
 .student-card {
-  background: #f9f9f9;
-  border: 1px solid #ececec;
-  border-left: 4px solid #c41230;
-  border-radius: 6px;
-  padding: 1.2em 1.5em;
-  min-width: 240px;
-  flex: 1 1 240px;
-  max-width: 340px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  padding: 0.85em 0;
+  border-bottom: 1px solid var(--prism-border);
 }
 
-.student-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-}
-
-.student-name {
-  margin: 0 0 0.3em 0;
-  font-size: 1.15em;
-  font-weight: 700;
-  color: #222;
+.archive .student-name {
+  margin: 0 0 0.15em 0;
+  font-size: 1.05em;
+  font-weight: 600;
+  color: inherit;
 }
 
 .student-degree {
-  margin: 0 0 0.3em 0;
-  font-size: 0.95em;
-  color: #555;
-  font-style: italic;
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--prism-muted);
 }
 
-/* Dark theme support for cards */
-html[data-theme="dark"] .student-card {
-  background: #24292e;
-  border-color: #333a41;
-  border-left-color: #c41230;
-}
+.student-degree + .student-degree { margin-top: 0.1em; }
 
-html[data-theme="dark"] .student-name {
-  color: #f0f0f0;
-}
-
-html[data-theme="dark"] .student-degree {
-  color: #b8bdc2;
-}
-
-html[data-theme="dark"] .student-card:hover {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+@media (max-width: 600px) {
+  .student-grid { grid-template-columns: 1fr; }
 }
 
 .student-email {

@@ -11,19 +11,19 @@ author_profile: true
 
 ## Current Projects
 
-<section class="prism-project">
+<section class="prism-project prism-project--wide">
   <div class="prism-project__media prism-project__media--pair">
     <img src="/images/projects/lifeark-test-setup-actuator.png" alt="Reaction frame and hydraulic actuator loading a full-scale LifeArk unit">
     <img src="/images/projects/lifeark-test-setup-plan.png" alt="Full-scale LifeArk unit anchored to the strong floor">
   </div>
   <div class="prism-project__text">
     <h3>Full-scale seismic testing of LifeArk modular buildings</h3>
-    <p class="prism-project__meta">PI, with Co-PI Robert K. Dowell &middot; Funded by LifeArk &middot; 2026&ndash;27</p>
+    <p class="prism-project__meta">PI &middot; Funded by LifeArk &middot; 2026&ndash;27</p>
     <p>Six full-scale HDPE composite building units under monotonic, cyclic, and shake-table loading to establish the <strong>first code-recognized seismic performance factors</strong> (R, &Omega;<sub>0</sub>, C<sub>d</sub>) for this housing system under FEMA P-695 and AC494. A custom reaction frame and hydraulic actuator are paired with stereo-camera 3D vision measurement and nonlinear OpenSees models. Outcome: a permitting pathway for rapidly deployable <a href="https://lifeark.net/disaster-relief" target="_blank" rel="noopener">disaster-relief housing</a>.</p>
   </div>
 </section>
 
-<section class="prism-project">
+<section class="prism-project prism-project--wide">
   <div class="prism-project__media prism-project__media--wide">
     <img src="/images/projects/csmip-physics-ai.svg" alt="Pipeline: instrumented building, multi-event ground-motion records, physics-informed neural network, story-level damage map">
   </div>
@@ -80,15 +80,33 @@ author_profile: true
 }
 .prism-project__media--pair {
   display: grid;
-  gap: 0.6rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  max-width: 820px;
+  width: 100%;
+  margin: 0 auto;
 }
-.prism-project__media--wide {
-  grid-column: 1 / -1;
+.prism-project__media--pair img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+@media (max-width: 600px) {
+  .prism-project__media--pair { grid-template-columns: 1fr; }
+}
+/* Wide variant: figure on top, text runs the full width beneath it */
+.prism-project--wide {
+  grid-template-columns: 1fr;
+  gap: 1rem;
 }
 .prism-project__media--wide img {
   max-width: 820px;
   margin: 0 auto;
   padding: 0.5rem 0;
+}
+.prism-project--wide .prism-project__text {
+  max-width: 820px;
+  margin: 0 auto;
+  width: 100%;
 }
 .archive .prism-project__text h3 {
   margin: 0 0 0.3rem;

@@ -13,8 +13,8 @@ redirect_from:
   <p class="prism-hero__tagline">AI-enabled smart sensing, computer vision, and physics-informed digital twins for safer, more resilient infrastructure &mdash; at San Diego State University.</p>
   <div class="prism-hero__cta">
     <a href="/research/" class="btn btn--primary">Explore Research</a>
-    <a href="/positions/" class="btn btn--primary">Join the Lab</a>
-    <a href="/publications/" class="btn btn--primary">Publications</a>
+    <a href="/positions/" class="btn btn--outline">Join the Lab</a>
+    <a href="/publications/" class="btn btn--outline">Publications</a>
   </div>
 </div>
 

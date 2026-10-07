@@ -179,10 +179,24 @@
 /* Section headings — SDSU brand red underline for consistency with cards */
 .page__content h2,
 .archive h2 {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  padding-bottom: 0.4em;
-  border-bottom: 2px solid var(--prism-red);
+  position: relative;
+  margin-top: 2.4em;
+  margin-bottom: 1.1em;
+  padding-bottom: 0.55em;
+  border-bottom: none;
+  font-size: 1.45em;
+  letter-spacing: -0.01em;
+}
+.page__content h2::after,
+.archive h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2.5rem;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--prism-red);
 }
 
 .page__content h3 {
@@ -292,12 +306,12 @@ html { scroll-behavior: smooth; }
 
 /* ---- Highlighted callout box ---- */
 .prism-callout {
-  background: var(--prism-red-soft);
-  border: 1px solid var(--prism-border);
-  border-left: 5px solid var(--prism-red);
-  border-radius: 10px;
-  padding: 1.4rem 1.6rem;
-  margin: 1.5rem 0 2rem;
+  background: transparent;
+  border: none;
+  border-left: 3px solid var(--prism-red);
+  border-radius: 0;
+  padding: 0.4rem 0 0.4rem 1.4rem;
+  margin: 1.75rem 0 2.25rem;
 }
 .prism-callout > :first-child { margin-top: 0; }
 .prism-callout > :last-child { margin-bottom: 0; }
@@ -309,16 +323,69 @@ html { scroll-behavior: smooth; }
 }
 .prism-badge {
   display: inline-block;
+  background: transparent;
+  color: var(--prism-red-text);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* ---- Global typography & surfaces (site-wide) ---- */
+body,
+.page__content,
+.archive,
+.masthead,
+.sidebar,
+.author__content,
+.greedy-nav,
+.btn {
+  font-family: "Inter", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.prism-title,
+.site-title {
+  font-family: "Inter", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+.page__title {
+  font-size: 2.1em;
+  margin-bottom: 0.6em;
+}
+.page__content p,
+.archive p,
+.archive li,
+.page__content li {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.page__content a:not(.btn),
+.archive a:not(.btn) {
+  color: var(--prism-red-text);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+.page__content a:not(.btn):hover,
+.archive a:not(.btn):hover {
+  border-bottom-color: currentColor;
+}
+
+/* Outlined secondary button (hero) */
+.btn--outline {
+  background: transparent;
+  color: var(--prism-red-text);
+  border: 1.5px solid var(--prism-red);
+}
+.btn--outline:hover {
   background: var(--prism-red);
   color: #fff;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 0.3em 0.75em;
-  border-radius: 999px;
-  margin-bottom: 0.75rem;
 }
+html[data-theme="dark"] .btn--outline:hover { color: #fff; }
 
 /* ---- Simple pill list (used for project / focus lists) ---- */
 .prism-list,
