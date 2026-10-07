@@ -66,54 +66,87 @@ redirect_from:
 
 Welcome to the PRISM Lab at San Diego State University. We develop AI-enabled smart sensing platforms, generative-AI &amp; computer vision pipelines, and physics-informed digital twins that turn infrastructure data into actionable intelligence for safer, more resilient communities.
 
-## Research Focus
+## Recent Highlights and News
 
-<div class="prism-grid">
+<div class="prism-news">
 
-  <div class="prism-card">
-    <div class="prism-card__icon"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i></div>
-    <h3>Structural Health Monitoring</h3>
-    <p>Autonomous condition assessment for bridges and critical infrastructure.</p>
-  </div>
+  <article class="prism-news__item">
+    <div class="prism-news__date">2026</div>
+    <div class="prism-news__body">
+      <h3>$100K grant to detect irreversible seismic damage in buildings</h3>
+      <p>Funded by the California Department of Conservation (CSMIP). We will use physics-informed AI on the multi-event strong-motion archive of instrumented California buildings to separate recoverable stiffness softening from irreversible earthquake damage.</p>
+    </div>
+  </article>
 
-  <div class="prism-card">
-    <div class="prism-card__icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
-    <h3>Smart Sensing &amp; Edge AI</h3>
-    <p>Wireless hardware, LoRa communication, and embedded intelligence at the edge.</p>
-  </div>
+  <article class="prism-news__item">
+    <div class="prism-news__date">2026</div>
+    <div class="prism-news__body">
+      <h3>Named an AI-Ready Faculty Fellow</h3>
+      <p>Selected by the SDSU College of Engineering, and a Faculty Fellow in the Leading AI-Ready Programs (LAIRP) initiative, to bring AI into engineering teaching and research. Also named a Weber Honors College Research Fellow.</p>
+    </div>
+  </article>
 
-  <div class="prism-card">
-    <div class="prism-card__icon"><i class="fa-solid fa-camera" aria-hidden="true"></i></div>
-    <h3>Computer Vision &amp; Generative AI</h3>
-    <p>Drone- and camera-based inspection pipelines for damage detection.</p>
-  </div>
+  <article class="prism-news__item">
+    <div class="prism-news__date">2026&ndash;27</div>
+    <div class="prism-news__body">
+      <h3>Full-scale seismic testing of LifeArk modular buildings</h3>
+      <p>Monotonic, cyclic, and shake-table tests on six full-scale HDPE composite building units to establish seismic performance factors under FEMA P-695 and AC494, with nonlinear OpenSees models and stereo-camera 3D measurement. Our new graduate and undergraduate researchers are driving the experimental design.</p>
+    </div>
+  </article>
 
-  <div class="prism-card">
-    <div class="prism-card__icon"><i class="fa-solid fa-wave-square" aria-hidden="true"></i></div>
-    <h3>Scientific ML &amp; PINNs</h3>
-    <p>Fusing physics, field data, and simulation for trustworthy predictions.</p>
-  </div>
+  <article class="prism-news__item">
+    <div class="prism-news__date">2026&ndash;27</div>
+    <div class="prism-news__body">
+      <h3>Physics-informed AI for structural dynamics</h3>
+      <p>Supported by an SDSU Seed Grant: semi-supervised PINNs, neural operators, and time-series foundation models for response forecasting, model updating, and damage identification in multi-story buildings.</p>
+    </div>
+  </article>
 
-  <div class="prism-card">
-    <div class="prism-card__icon"><i class="fa-solid fa-cubes" aria-hidden="true"></i></div>
-    <h3>Digital Twins for Resilience</h3>
-    <p>Real-time decision support after earthquakes and natural hazards.</p>
-  </div>
+  <article class="prism-news__item">
+    <div class="prism-news__date">Apr&ndash;Jun 2026</div>
+    <div class="prism-news__body">
+      <h3>Invited talks and conference presentations</h3>
+      <p>Seminar at the UC San Diego Jacobs School of Engineering (April), the SEAoA State Convention with Dr. Robert Dowell (June), and the ASCE Engineering Mechanics Institute conference (June).</p>
+    </div>
+  </article>
+
+  <article class="prism-news__item">
+    <div class="prism-news__date">2026</div>
+    <div class="prism-news__body">
+      <h3>Joined the NSF NAIRR Pilot review panel</h3>
+      <p>Serving on the Allocations Review Panel for the National AI Research Resource pilot, and as a member of the ASCE EMI Structural Health Monitoring &amp; Control Committee.</p>
+    </div>
+  </article>
 
 </div>
 
-## Recent Highlights
+## Research Focus
 
-<ul class="prism-list">
-  <li>Full-scale seismic testing campaign for LifeArk modular housing (2025&ndash;2026)</li>
-  <li>Seminar series on bridging smart sensing and physics-informed AI at SDSU (Fall 2025)</li>
-  <li>Feature article in STRUCTURE Magazine on AI for indeterminate structural analysis (in press)</li>
-</ul>
+<dl class="prism-focus">
+  <div>
+    <dt>Structural Health Monitoring</dt>
+    <dd>Autonomous condition assessment for bridges and critical infrastructure.</dd>
+  </div>
+  <div>
+    <dt>Smart Sensing &amp; Edge AI</dt>
+    <dd>Wireless hardware, LoRa communication, and embedded intelligence at the edge.</dd>
+  </div>
+  <div>
+    <dt>Computer Vision &amp; Generative AI</dt>
+    <dd>Drone- and camera-based inspection pipelines for damage detection.</dd>
+  </div>
+  <div>
+    <dt>Scientific ML &amp; PINNs</dt>
+    <dd>Fusing physics, field data, and simulation for trustworthy predictions.</dd>
+  </div>
+  <div>
+    <dt>Digital Twins for Resilience</dt>
+    <dd>Real-time decision support after earthquakes and natural hazards.</dd>
+  </div>
+</dl>
 
-<div class="prism-callout" markdown="1">
-## Join Our Team
-
-We are actively recruiting motivated students at all levels, including **fully funded PhD positions for Fall 2027**. See our [Positions](/positions/) page for current opportunities.
+<div class="prism-join" markdown="1">
+**Join our team.** We are recruiting motivated students at all levels, including fully funded PhD positions for Fall 2027. See our [Positions](/positions/) page.
 </div>
 
 ## Contact

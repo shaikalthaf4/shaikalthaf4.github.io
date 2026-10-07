@@ -7,7 +7,7 @@ author_profile: true
 
 <p class="prism-lead">We build AI-enabled smart sensing platforms, computer vision &amp; generative-AI pipelines, and physics-informed digital twins that turn infrastructure data into actionable intelligence for safer, more resilient communities.</p>
 
-<img src="/images/research-overview.png" alt="Research Overview" style="width: 100%; max-width: 460px; margin: 1.5em auto 2em; display: block; border-radius: 8px; box-shadow: 0 4px 14px var(--prism-shadow);">
+<figure class="prism-figure"><img src="/images/research-overview.png" alt="Multidisciplinary research overview: seismic sensing, machine-vision sensor, digital twin, LLMs and generative AI, SHM and edge AI, PINN machine learning, and UAV"></figure>
 
 ## Research Areas
 

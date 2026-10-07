@@ -25,7 +25,7 @@
     /* Scroll reveal — only engages when supported and motion is allowed, so
        content is never hidden for no-JS / reduced-motion users. */
     var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var selector = ".prism-card, .publication-item, .student-card, .prism-callout, " +
+    var selector = ".prism-card, .prism-news__item, .publication-item, .student-card, .prism-callout, " +
                    ".page__content > h2, .archive > h2, .teaching-table";
     var targets = Array.prototype.slice.call(document.querySelectorAll(selector));
     if ("IntersectionObserver" in window && !reduce && targets.length) {

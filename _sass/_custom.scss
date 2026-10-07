@@ -510,3 +510,80 @@ html[data-theme="dark"] .prism-header { border-bottom-color: var(--prism-border)
 }
 .masthead__menu .visible-links a:hover::after { transform: scaleX(1); }
 #theme-toggle a::after { display: none; }
+
+/* ---- Research overview figure: blends into the page instead of floating as a box ---- */
+.prism-figure {
+  margin: 1.5rem auto 2.25rem;
+  max-width: 460px;
+  text-align: center;
+}
+.prism-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 16px;
+  mix-blend-mode: multiply; /* white PNG background disappears on the light page */
+}
+html[data-theme="dark"] .prism-figure img {
+  mix-blend-mode: normal;
+  background: #f4f5f7;
+  padding: 1rem;
+  box-shadow: 0 0 0 1px var(--prism-border);
+}
+
+/* ---- Home: news timeline ---- */
+.prism-news { margin: 1rem 0 2.5rem; }
+.prism-news__item {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 1.25rem;
+  padding: 1.15rem 0;
+  border-top: 1px solid var(--prism-border);
+}
+.prism-news__item:last-child { border-bottom: 1px solid var(--prism-border); }
+.prism-news__date {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--prism-red-text);
+  padding-top: 0.25rem;
+}
+.page__content .prism-news__body h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.08rem;
+  line-height: 1.35;
+}
+.page__content .prism-news__body p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--prism-muted);
+}
+@media (max-width: 600px) {
+  .prism-news__item { grid-template-columns: 1fr; gap: 0.25rem; }
+}
+
+/* ---- Home: research focus as a quiet definition list ---- */
+.prism-focus { margin: 1rem 0 2rem; }
+.prism-focus > div {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--prism-border);
+}
+.prism-focus dt { font-weight: 600; margin: 0; }
+.prism-focus dd { margin: 0; color: var(--prism-muted); font-size: 0.95rem; }
+@media (max-width: 600px) {
+  .prism-focus > div { grid-template-columns: 1fr; gap: 0.15rem; }
+}
+
+/* ---- Home: understated recruiting note ---- */
+.prism-join {
+  border-left: 3px solid var(--prism-red);
+  padding: 0.2rem 0 0.2rem 1.1rem;
+  margin: 2rem 0;
+}
+.prism-join p { margin: 0; }
