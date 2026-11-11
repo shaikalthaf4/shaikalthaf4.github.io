@@ -178,11 +178,6 @@ author_profile: true
 <div class="student-grid">
 
   <div class="student-card">
-    <h3 class="student-name">Martha Winning</h3>
-    <p class="student-degree">DAAD RISE Visiting Research Scholar</p>
-  </div>
-
-  <div class="student-card">
     <h3 class="student-name">Yaseer Hashemi</h3>
     <p class="student-degree">M.S. Student in Civil Engineering</p>
   </div>
@@ -297,6 +292,11 @@ author_profile: true
 ## Alumni
 
 <div class="student-grid">
+
+  <div class="student-card">
+    <h3 class="student-name">Martha Winning</h3>
+    <p class="student-degree">DAAD RISE Visiting Research Scholar</p>
+  </div>
 
   <div class="student-card">
     <h3 class="student-name">Stephanie Bech</h3>
