@@ -71,7 +71,15 @@ Welcome to the PRISM Lab at San Diego State University. We develop AI-enabled sm
 <ul class="prism-news">
   <li class="prism-news__item prism-news__item--new">
     <span class="prism-news__date">2026</span>
-    <span class="prism-news__text"><i class="fa-solid fa-star prism-star" aria-hidden="true"></i> $100K grant from the <strong>California Department of Conservation</strong> for AI-based seismic damage assessment of instrumented buildings</span>
+    <span class="prism-news__text"><i class="fa-solid fa-star prism-star" aria-hidden="true"></i> $100K grant from the <strong>California Department of Conservation</strong> for physics-based AI seismic damage assessment of instrumented buildings</span>
+  </li>
+  <li class="prism-news__item prism-news__item--new">
+    <span class="prism-news__date">2026</span>
+    <span class="prism-news__text"><i class="fa-solid fa-star prism-star" aria-hidden="true"></i> Co-PI on a $560K <strong>Caltrans</strong> grant on primary vertical rebar cutoffs for reinforced concrete bridge columns</span>
+  </li>
+  <li class="prism-news__item prism-news__item--new">
+    <span class="prism-news__date">2026</span>
+    <span class="prism-news__text"><i class="fa-solid fa-star prism-star" aria-hidden="true"></i> Co-PI on a $525K <strong>Caltrans</strong> grant on seismic damage to ends of precast, prestressed concrete bridge girders</span>
   </li>
   <li class="prism-news__item prism-news__item--new">
     <span class="prism-news__date">2026</span>
